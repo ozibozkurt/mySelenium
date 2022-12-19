@@ -14,3 +14,6 @@ public class firstSeleniumClass {
 //Creating obj by using sub child
 //interview question
 //How you used polimorfizm is your project
+1. Creating the instance - object of driver 
+2. WebDriver driver = new ChromeDriver();
+3. WebDriver driver = new FirefoxDriver();
