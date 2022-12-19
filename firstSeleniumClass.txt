@@ -7,11 +7,9 @@ public class firstSeleniumClass {
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
-
-
-
-
     }
-
-
 }
+
+//This is polimorfizm 
+//Creating obj by using sub child
+//
