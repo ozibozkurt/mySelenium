@@ -34,6 +34,8 @@ driver.navigate().refresh();//refresh
 
 driver.close();//close the driver
 
+driver.quit();//close all driver
+
 
 
 
