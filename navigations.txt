@@ -27,6 +27,10 @@ driver.navigate().to("https://www.amazon.com"); //this is the same with get meth
 driver.navigate().back();//back 
 
 
+driver.navigate().forward();//forward 
+
+
+
 
 
 
