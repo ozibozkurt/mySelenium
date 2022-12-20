@@ -9,9 +9,9 @@ import java.net.URL;
 public class navigations {
 public static void main(String[] args) throws InterruptedException {
 
+System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 
 
-    
 }
 
 
