@@ -22,6 +22,11 @@ driver.get("https://www.google.com");
 
 //Thread.sleep(millis: 5000); //we will wait 5 second. This is hard coding
 
+driver.navigate().to("https://www.amazon.com"); //this is the same with get method
+
+
+
+
 
 }
 
