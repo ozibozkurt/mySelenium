@@ -11,6 +11,11 @@ public static void main(String[] args) throws InterruptedException {
 
 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 
+//step 2
+WebDriver driver = new ChromeDriver();
+
+
+
 
 }
 
