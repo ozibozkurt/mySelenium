@@ -32,6 +32,7 @@ driver.navigate().forward();//forward
 
 driver.navigate().refresh();//refresh 
 
+driver.close();//close the driver
 
 
 
