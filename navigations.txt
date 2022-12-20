@@ -30,6 +30,10 @@ driver.navigate().back();//back
 driver.navigate().forward();//forward 
 
 
+driver.navigate().refresh();//refresh 
+
+
+
 
 
 
