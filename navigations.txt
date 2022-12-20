@@ -20,7 +20,7 @@ driver.manage().window().maximize();
 //step 3
 driver.get("https://www.google.com");
 
-
+//Thread.sleep(millis: 5000); //we will wait 5 second. This is hard coding
 
 
 }
