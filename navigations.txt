@@ -17,6 +17,9 @@ WebDriver driver = new ChromeDriver();
 //full screen
 driver.manage().window().maximize();
 
+//step 3
+driver.get("https://www.google.com");
+
 
 
 
