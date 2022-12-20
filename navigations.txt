@@ -24,6 +24,8 @@ driver.get("https://www.google.com");
 
 driver.navigate().to("https://www.amazon.com"); //this is the same with get method
 
+driver.navigate().back();//back 
+
 
 
 
