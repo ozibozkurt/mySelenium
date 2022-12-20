@@ -3,3 +3,16 @@ package com.myfirstproject //adi cok onemli degil
 
 import org.openga.selenium.WebDriver;
 import org.openga.selenium.chrome.ChromeDriver;
+
+import java.net.URL;
+
+public class navigations {
+public static void main(String[] args) throws InterruptedException {
+
+
+
+    
+}
+
+
+}
