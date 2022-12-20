@@ -36,6 +36,8 @@ driver.close();//close the driver
 
 driver.quit();//close all driver
 
+/* Interview Questions:
+
 
 
 
