@@ -10,6 +10,8 @@ public class Day02_FirefoxTest {
 System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
         //creating firefox driver
 
+WebDriver driver = new FirefoxDriver();
+        Thread.sleep(2000);
 
 
 
