@@ -37,6 +37,14 @@ driver.close();//close the driver
 driver.quit();//close all driver
 
 /* Interview Questions:
+--What is the difference between get() and navigate().to()
+1. get() is easier to use, and used more than navigate()
+
+
+
+
+
+
 
 
 
