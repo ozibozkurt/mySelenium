@@ -13,7 +13,11 @@ System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 WebDriver driver = new FirefoxDriver();
         Thread.sleep(2000);
 
-
+driver.get("https://www.google.com");
+        driver.manage().window().maximize();
+        driver.quit();
+    }
+}
 
 }
 
