@@ -52,6 +52,12 @@ It is used to put some wait
 Thread.sleep(millis: 5000); puts 5 second ON THIS STEP
 
 
+--Selenium wait ogrenmedigimiz icin Thread.sleep() kullandik, normalde bunu otomation testerlar kullanmiyorlarmis.
+Thread.sleep() coming from java, it is not coming from selenium.
+biz kullanmiyoruz, because this is hard wait. It means, this will put extra wait EVEN IF WE DON'T NEED
+-> We will use selenium waits. They will be DYNAMIC WAIT.
+
+
 
 
 
