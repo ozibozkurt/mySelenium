@@ -45,6 +45,7 @@ driver.quit();//close all driver
 
 --What is the difference between close() and quit()?
 1. close()==> closes only current working browser==> 5 tane deneme yaptik, close en sonunu kapatiyor, digerleri hala acik
+2. Quit() ==> closes all browsers.==>Hepsini kapatiyor, quit daha iyi.
 
 
 
