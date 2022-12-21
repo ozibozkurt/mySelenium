@@ -40,6 +40,7 @@ driver.quit();//close all driver
 --What is the difference between get() and navigate().to()
 1. get() is easier to use, and used more than navigate()
 2. get() is a little faster
+3. get() takes only string, but navigate().to() takes string orl url as parameter
 
 
 
