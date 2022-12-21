@@ -47,6 +47,10 @@ driver.quit();//close all driver
 1. close()==> closes only current working browser==> 5 tane deneme yaptik, close en sonunu kapatiyor, digerleri hala acik
 2. Quit() ==> closes all browsers.==>Hepsini kapatiyor, quit daha iyi.
 
+-What is Thread.sleep();
+It is used to put some wait
+Thread.sleep(millis: 5000); puts 5 second ON THIS STEP
+
 
 
 
