@@ -43,6 +43,9 @@ driver.quit();//close all driver
 3. get() takes only string, but navigate().to() takes string orl url as parameter
 4. navigate() has more options; such as, back, forward, refresh
 
+--What is the difference between close() and quit()?
+1. close()==> closes only current working browser==> 5 tane deneme yaptik, close en sonunu kapatiyor, digerleri hala acik
+
 
 
 
