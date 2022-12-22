@@ -15,3 +15,5 @@ JUNIT is a testing framework
     Because test methods are used for assertions
 
      2. @Before : Runs before each @Test annotation
+
+      3. @After  : Runs after each @Test annotation
