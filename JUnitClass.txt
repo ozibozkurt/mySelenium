@@ -29,3 +29,6 @@ JUNIT is a testing framework
     We use JUnit assertion if actual and expected is equal
     Instead of using if else statement, we will use Junit assertions
     It will come from Assert class   
+
+
+     1. Assert.assertEquals("ACTUAL","EXPECTED");
