@@ -1,2 +1,9 @@
 package com.myfirstproject;
 import org.junit.*;
+
+
+JUNIT is a testing framework
+    JUnit is one of the oldest JAVA testing framework
+    TESTERS ALSO USE UNIT TESTING FOR CREATING AUTOMATION TEST FRAMEWORK
+    Developers also use JUnit for their UNIT TESTING
+    No more main method
