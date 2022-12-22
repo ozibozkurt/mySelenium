@@ -22,4 +22,10 @@ JUNIT is a testing framework
 
     5. @AfterClass  : Runs only once after each class
 
-    6. @Ignore      : To skip a test case    
+    6. @Ignore      : To skip a test case 
+
+
+    ********JUNIT ASSERTION
+    We use JUnit assertion if actual and expected is equal
+    Instead of using if else statement, we will use Junit assertions
+    It will come from Assert class   
