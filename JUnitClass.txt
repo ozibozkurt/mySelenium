@@ -13,3 +13,5 @@ JUNIT is a testing framework
     1. @Test annotation is used to create test cases
     NOTE: all test method will be void
     Because test methods are used for assertions
+
+     2. @Before : Runs before each @Test annotation
