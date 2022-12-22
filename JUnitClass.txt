@@ -22,4 +22,4 @@ JUNIT is a testing framework
 
     5. @AfterClass  : Runs only once after each class
 
-    
+    6. @Ignore      : To skip a test case    
