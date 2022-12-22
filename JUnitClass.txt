@@ -7,3 +7,9 @@ JUNIT is a testing framework
     TESTERS ALSO USE UNIT TESTING FOR CREATING AUTOMATION TEST FRAMEWORK
     Developers also use JUnit for their UNIT TESTING
     No more main method
+
+
+    ********JUNIT has 7 major annotation
+    1. @Test annotation is used to create test cases
+    NOTE: all test method will be void
+    Because test methods are used for assertions
