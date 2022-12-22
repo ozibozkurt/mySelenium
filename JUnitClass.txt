@@ -31,4 +31,5 @@ JUNIT is a testing framework
     It will come from Assert class   
 
 
-     1. Assert.assertEquals("ACTUAL","EXPECTED");
+    1. Assert.assertEquals("ACTUAL","EXPECTED");
+    2. Assert.assertTrue("ACTUAL".contains("EXPECTED"));
