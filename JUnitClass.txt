@@ -45,3 +45,15 @@ JUNIT is a testing framework
     public void test1(){
         System.out.println("THIS IS TEST 1");
     }
+
+@Test
+    public void test2(){
+        System.out.println("THIS IS TEST 2");
+    }
+    @Ignore
+    @Test
+    public void test3(){
+        System.out.println("THIS IS TEST 3");
+    }
+
+
