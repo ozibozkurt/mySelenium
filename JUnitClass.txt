@@ -40,3 +40,8 @@ JUNIT is a testing framework
     public void setUp(){
         System.out.println("This is Before method");
     }
+
+    @Test
+    public void test1(){
+        System.out.println("THIS IS TEST 1");
+    }
