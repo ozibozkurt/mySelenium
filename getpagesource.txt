@@ -6,7 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Day02_GetPageSource {
     public static void main(String[] args) throws InterruptedException {
 
-
+//1.getPageSource() returns page source code as a string
+        // 2.We might use this to verify if a certain text exist in the entire page
 
 
 
