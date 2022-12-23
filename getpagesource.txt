@@ -9,7 +9,8 @@ public class Day02_GetPageSource {
 //1.getPageSource() returns page source code as a string
         // 2.We might use this to verify if a certain text exist in the entire page
 
-
+// 3.Note that pageSource is not used a lot to do assertions
+        // 4.Because it is too general and can lead false result
 
 
 
