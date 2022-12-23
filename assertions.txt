@@ -10,6 +10,8 @@
 2. Assert.assertTrue(BOOLEAN);
         Assert.assertTrue("Selenium".contains("e"));
 
+3. Assert.assertFalse(BOOLEAN);
+        Assert.assertFalse("Selenium".contains("java"));// "Selenium".contains("a") -> FALSE
+//      We can add a message as well.
 
-        
         }
