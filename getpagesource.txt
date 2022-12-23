@@ -17,7 +17,7 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");
 
-        
+
 //getting the page source
         String pageSource = driver.getPageSource();
         Thread.sleep(3000);
@@ -27,4 +27,6 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         }else {
             System.out.println("FAIL");
         }
+         Thread.sleep(3000);
+        driver.quit();
         }
