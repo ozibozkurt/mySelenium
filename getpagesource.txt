@@ -29,4 +29,6 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         }
          Thread.sleep(3000);
         driver.quit();
+        
+        //amazonu actik beyaz ekranda sag tikladik ve view page source yi sectik
         }
