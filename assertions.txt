@@ -7,4 +7,9 @@
 //        if assertion passs, then we see a green checkmark only
         Assert.assertEquals("java","java");
 
+2. Assert.assertTrue(BOOLEAN);
+        Assert.assertTrue("Selenium".contains("e"));
+
+
+        
         }
