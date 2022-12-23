@@ -14,4 +14,9 @@
         Assert.assertFalse("Selenium".contains("java"));// "Selenium".contains("a") -> FALSE
 //      We can add a message as well.
 
-        }
+This message will ONLY DISPLAY WHEN ASSERTION FAILS!!!!
+        Assert.assertEquals("ASSERTION FAILED!","java","java");
+    }
+}
+
+        
