@@ -16,6 +16,8 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");
-
+//getting the page source
+        String pageSource = driver.getPageSource();
+        Thread.sleep(3000);
 
         }
