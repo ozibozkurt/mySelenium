@@ -1,0 +1,10 @@
+//ASSERTION
+    //if expected == actual
+    @Test
+    public void assertions(){
+         //1. Assert.assertEquals("expected","actual");
+//        If assertion fails, then we see error message on the console
+//        if assertion passs, then we see a green checkmark only
+        Assert.assertEquals("java","java");
+
+        }
