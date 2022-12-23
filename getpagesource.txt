@@ -12,7 +12,8 @@ public class Day02_GetPageSource {
 // 3.Note that pageSource is not used a lot to do assertions
         // 4.Because it is too general and can lead false result
 
-
+System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
 
 
         }
