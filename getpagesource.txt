@@ -16,8 +16,15 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");
+
+        
 //getting the page source
         String pageSource = driver.getPageSource();
         Thread.sleep(3000);
-
+//checking if "best seller" exist on the entire page
+        if(pageSource.contains("Registry")) {
+            System.out.println("PASS");
+        }else {
+            System.out.println("FAIL");
+        }
         }
