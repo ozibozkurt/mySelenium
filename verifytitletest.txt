@@ -30,7 +30,11 @@ public class Day02_VerifyTitleTest {
 
 //verification
 
-
+ if (actualTitle.equals(expectedTitle)) {
+            System.out.println("PASS");
+        }else {
+            System.out.println("FAILED");
+        }
 
 
 }
