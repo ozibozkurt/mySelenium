@@ -37,4 +37,8 @@ public class Day02_VerifyTitleTest {
         }
 
 
+System.out.println("ACTUAL : " + actualTitle);
+
+
+
 }
