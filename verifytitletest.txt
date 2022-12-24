@@ -9,6 +9,11 @@ public class Day02_VerifyTitleTest {
 
 
 
+//navigate to google home page
+        //verify if the title is "Google"
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
 
 
