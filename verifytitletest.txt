@@ -20,7 +20,8 @@ public class Day02_VerifyTitleTest {
  driver.get("https://www.google.com/");
         Thread.sleep(3000);
 
-
+//Actual title of a page
+        String actualTitle = driver.getTitle();
 
 
 
