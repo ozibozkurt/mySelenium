@@ -25,7 +25,8 @@ public class Day02_VerifyTitleTest {
 
 
 
-
+//Expected Title of the page
+        String expectedTitle = "Google";
 
 
 
