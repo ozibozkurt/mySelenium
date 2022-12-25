@@ -44,5 +44,10 @@ WebDriver driver = new ChromeDriver();
     -if they are using JIRA then open a bug ticket
 
    
-   
+    6. Ticket opened, bug is fixed, dev told you that bug is fixed
+    -re test to make sure
+    -if all good then close the ticket
+    */
+
+    }
     }
