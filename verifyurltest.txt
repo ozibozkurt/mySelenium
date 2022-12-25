@@ -12,5 +12,9 @@ WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
 //getting the url of the page
         String actualURL = driver.getCurrentUrl();
+//expected url
+        String expectedURL = "www.google.com";
 
+
+        
     }
