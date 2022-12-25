@@ -14,7 +14,12 @@ WebDriver driver = new ChromeDriver();
         String actualURL = driver.getCurrentUrl();
 //expected url
         String expectedURL = "www.google.com";
+//verification
+        if (actualURL.equals(expectedURL)) {
+            System.out.println("PASS");
+        }else {
+            System.out.println("FAIL");
+        }
 
 
-        
     }
