@@ -30,4 +30,6 @@ WebDriver driver = new ChromeDriver();
         //EXPECTED : www.google.com
 
 
+/*
+        Then what do you do when your test case fails?
     }
