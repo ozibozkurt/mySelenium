@@ -8,6 +8,8 @@ public class Day02_VerifyURLTest {
     //verify if google homepage url is "www.google.com"
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.com");
 
 
     }
