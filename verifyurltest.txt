@@ -4,7 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day02_VerifyURLTest {
-
+//navigate to google home page
+    //verify if google homepage url is "www.google.com"
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 
 
     }
