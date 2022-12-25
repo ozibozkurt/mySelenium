@@ -36,4 +36,13 @@ WebDriver driver = new ChromeDriver();
 2. Manual testing to make sure
     3. Now I know that expected and actual result is not the same
    4. Then we communicate with the BA(Business Analist write acceptance criteria) or talk to developers, test lead, tech lead
+   
+   
+   Note (***) Testers do not fix a code. We reports the bugs. Developers then fix.
+    5. After verifying the there is a bug then what do you do?
+    -Follow the company procedurs
+    -if they are using JIRA then open a bug ticket
+
+   
+   
     }
