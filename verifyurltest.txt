@@ -32,4 +32,5 @@ WebDriver driver = new ChromeDriver();
 
 /*
         Then what do you do when your test case fails?
+         1. Run script again to make sure
     }
