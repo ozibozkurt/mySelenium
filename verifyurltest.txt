@@ -20,6 +20,9 @@ WebDriver driver = new ChromeDriver();
         }else {
             System.out.println("FAIL");
         }
+         System.out.println("ACTUAL: " + actualURL);
+        System.out.println("EXPECTED : " + expectedURL);
+        driver.quit();
 
 
     }
