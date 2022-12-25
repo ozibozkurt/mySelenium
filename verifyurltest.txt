@@ -24,5 +24,10 @@ WebDriver driver = new ChromeDriver();
         System.out.println("EXPECTED : " + expectedURL);
         driver.quit();
 
+        //Test case failed
+        //FAIL
+        //ACTUAL: https://www.google.com/
+        //EXPECTED : www.google.com
+
 
     }
