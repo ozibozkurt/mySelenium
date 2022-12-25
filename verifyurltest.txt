@@ -35,5 +35,5 @@ WebDriver driver = new ChromeDriver();
          1. Run script again to make sure
 2. Manual testing to make sure
     3. Now I know that expected and actual result is not the same
-   
+   4. Then we communicate with the BA(Business Analist write acceptance criteria) or talk to developers, test lead, tech lead
     }
