@@ -34,4 +34,5 @@ public class Day03_Locators {
 //        3. assert
 
 
-
+WebElement userId = driver.findElement(By.className("navbar-text"));
+        System.out.println(userId);
