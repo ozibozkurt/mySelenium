@@ -39,3 +39,7 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
 
         String actualUserIdText = userId.getText();
         System.out.println(actualUserIdText);
+
+         String expectedUserId = "testtechproed@gmail.com";
+        Assert.assertEquals("ID Test Fails", expectedUserId, actualUserIdText);
+
