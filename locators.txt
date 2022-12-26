@@ -17,3 +17,6 @@ public class Day03_Locators {
         driver.manage().window().maximize();
 
          driver.get("http://a.testaddressbook.com/sign_in");
+
+         locating the email input
+        driver.findElement(By.id("session_email")).sendKeys("testtechproed@gmail.com");
