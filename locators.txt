@@ -6,3 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Day03_Locators {
+    @Test
+    public void locators() throws InterruptedException {
