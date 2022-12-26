@@ -27,3 +27,6 @@ public class Day03_Locators {
         locating the sign in button and clicking on it
         driver.findElement(By.name("commit")).click();
         Thread.sleep(5000);
+
+
+        
