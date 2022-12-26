@@ -43,3 +43,14 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
          String expectedUserId = "testtechproed@gmail.com";
         Assert.assertEquals("ID Test Fails", expectedUserId, actualUserIdText);
 
+ //        Verify the Addresses and Sign Out texts are displayed
+
+        WebElement addressesElement=driver.findElement(By.linkText("Addresses"));
+
+
+
+
+
+
+
+
