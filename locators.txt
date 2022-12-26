@@ -48,7 +48,19 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
         WebElement addressesElement=driver.findElement(By.linkText("Addresses"));
 
 
+//        isDisplayed() return true if element is displayed.
+//        Returns false if element is not displayed
+        //boolean addressElementDisplayed = addressesElement.isDisplayed();
+        Assert.assertTrue(addressesElement.isDisplayed());
 
+
+
+
+
+
+
+
+        
 
 
 
