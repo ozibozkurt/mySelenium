@@ -36,3 +36,6 @@ public class Day03_Locators {
 
 WebElement userId = driver.findElement(By.className("navbar-text"));
         System.out.println(userId);
+
+        String actualUserIdText = userId.getText();
+        System.out.println(actualUserIdText);
