@@ -75,6 +75,12 @@ List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all li
 
                 Assert.assertTrue(isSignedOut);
 
+                 driver.quit();
+
+    }
+
+}
+
 
 
 
