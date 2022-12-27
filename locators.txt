@@ -62,6 +62,8 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
 //        //        Find the number of total link on the page
 
 ////        a tag is used to create links
+List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all links on the page
+        System.out.println("Total number of link : "+allLinks.size());
 
 
 
