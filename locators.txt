@@ -73,6 +73,8 @@ List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all li
         .getCurrentUrl()
                 .equals("http://a.testaddressbook.com/sign_in");
 
+                Assert.assertTrue(isSignedOut);
+
 
 
 
