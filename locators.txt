@@ -59,7 +59,7 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
         WebElement signOutElement = driver.findElement(By.linkText("Sign out"));
         Assert.assertTrue(signOutElement.isDisplayed());
 
-
+//        //        Find the number of total link on the page
 
 
 
