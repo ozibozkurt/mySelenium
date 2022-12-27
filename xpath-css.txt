@@ -13,3 +13,9 @@ public class Day03_xpath_css  {
     WebDriver driver;
     @Before
     public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");// WINDOWS
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("http://a.testaddressbook.com/sign_in");
+
+    }
