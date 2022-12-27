@@ -65,6 +65,10 @@ WebElement userId = driver.findElement(By.className("navbar-text"));
 List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all links on the page
         System.out.println("Total number of link : "+allLinks.size());
 
+        //        Sign out from the page
+        driver.findElement(By.partialLinkText("Sign out")).click();
+
+
 
 
 
