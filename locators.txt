@@ -70,6 +70,8 @@ List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all li
 
         //        NOTE: make sure do the assertion for verifying the sign out is successful
         boolean isSignedOut =driver
+        .getCurrentUrl()
+                .equals("http://a.testaddressbook.com/sign_in");
 
 
 
