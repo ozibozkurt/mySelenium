@@ -34,3 +34,12 @@ public class Day03_xpath_css  {
        //driver.findElement(By.xpath("(//a[@class='nav-item nav-link'])[2]")).click();
         //Thread.sleep(2000);
     }
+    @After
+    public void tearDown() {
+        //driver.quit();
+    }
+
+
+
+
+}
