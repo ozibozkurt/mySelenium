@@ -37,3 +37,4 @@ public class Day03_xpath_css  {
     }
 
     @After
+    public void tearDown() {
