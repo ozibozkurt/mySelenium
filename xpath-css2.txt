@@ -23,3 +23,5 @@ public class Day03_xpath_css  {
 
      @Test
     public void xpath_css() throws InterruptedException {
+        WebElement emailBox =  driver.findElement(By.xpath("//input[@id='session_email']"));
+       emailBox.sendKeys("testtechproed@gmail.com");
