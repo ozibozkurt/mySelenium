@@ -33,3 +33,5 @@ public class Day03_xpath_css  {
        signInButton.click();
 
        //driver.findElement(By.xpath("(//a[@class='nav-item nav-link'])[2]")).click();
+        //Thread.sleep(2000);
+    }
