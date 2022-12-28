@@ -28,3 +28,6 @@ public class Day03_xpath_css  {
 
        WebElement passwordBox = driver.findElement(By.xpath("//input[@id='session_password']"));
        passwordBox.sendKeys("Test1234!");
+
+       WebElement signInButton = driver.findElement(By.xpath("//input[@type='submit']"));
+       signInButton.click();
