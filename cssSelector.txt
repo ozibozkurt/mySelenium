@@ -25,3 +25,12 @@ public class Day04_CssSelector {
         //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.carettahotel.com/Account/Logon");
     }
+
+    @Test
+    public void cssTest(){
+        // Login test with css selector locator
+        //<input class="form-control required" data-val="true" data-val-required="This field is required" id="UserName"
+        // name="UserName" placeholder="Username" type="text" value="">
+        // driver.findElement(By.cssSelector("input[id='UserName']"))
+        //for css selector there are 3 ways.
+        //1. similiar to expect // and @ we dont use
