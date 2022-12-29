@@ -34,3 +34,10 @@ public class Day04_CssSelector {
         // driver.findElement(By.cssSelector("input[id='UserName']"))
         //for css selector there are 3 ways.
         //1. similiar to expect // and @ we dont use
+
+         WebElement userName= driver.findElement(By.cssSelector("#UserName"));
+        userName.sendKeys("Manager");
+        WebElement passWord = driver.findElement(By.cssSelector("#Password"));
+        passWord.sendKeys("Manage1!");
+        driver.findElement(By.cssSelector("input[id='btnSubmit']")).click();
+    }
