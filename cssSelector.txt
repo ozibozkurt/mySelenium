@@ -16,3 +16,6 @@ public class Day04_CssSelector {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC // For windows add .exe
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        // WE can add a wait here
+        // WE can add an implicit wait dynamic wait and if all elements are located before timeout it stops waiting
+        // This form is with Selenium 4
