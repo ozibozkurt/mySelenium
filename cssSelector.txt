@@ -9,3 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 public class Day04_CssSelector {
+    WebDriver driver;
+    @Before
+    public void setUp(){
