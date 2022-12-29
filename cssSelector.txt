@@ -12,3 +12,7 @@ public class Day04_CssSelector {
     WebDriver driver;
     @Before
     public void setUp(){
+
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC // For windows add .exe
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
