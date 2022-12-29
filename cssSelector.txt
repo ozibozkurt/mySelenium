@@ -19,3 +19,9 @@ public class Day04_CssSelector {
         // WE can add a wait here
         // WE can add an implicit wait dynamic wait and if all elements are located before timeout it stops waiting
         // This form is with Selenium 4
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        // Before this with Selenium 3
+        //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.get("https://www.carettahotel.com/Account/Logon");
+    }
