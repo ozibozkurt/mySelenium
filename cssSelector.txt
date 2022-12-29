@@ -41,3 +41,9 @@ public class Day04_CssSelector {
         passWord.sendKeys("Manage1!");
         driver.findElement(By.cssSelector("input[id='btnSubmit']")).click();
     }
+
+       @After
+    public void tearDown(){
+        driver.quit();
+    }
+}
