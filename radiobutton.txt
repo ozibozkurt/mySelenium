@@ -26,3 +26,14 @@ public class Day04_RadioButton {
         //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get("https://www.facebook.com");
+
+        Thread.sleep(3000);
+    }
+
+
+
+
+
+
+
+    
