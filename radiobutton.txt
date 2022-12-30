@@ -9,3 +9,9 @@ import org.openqa.selenium.support.FindBy;
 import java.time.Duration;
 
 public class Day04_RadioButton {
+    WebDriver driver;
+    @Before
+    public void setUp() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC // For windows add .exe
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
