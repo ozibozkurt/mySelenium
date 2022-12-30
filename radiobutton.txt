@@ -21,3 +21,6 @@ public class Day04_RadioButton {
         // This form is with Selenium 4
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+
+        // Before this with Selenium 3
+        //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
