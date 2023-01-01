@@ -41,7 +41,8 @@ firstName.sendKeys("Tulin");
 Thread.sleep(3000);
         // lastname
 
-
+WebElement lastName = driver.findElement(By.xpath("//input[@name='lastname']"));
+        lastName.sendKeys("Mungan");
 
 
 
