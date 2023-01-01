@@ -37,6 +37,7 @@ driver.findElement(By.xpath("//*[.='Allow All Cookies']")).click();
 
 driver.findElement(By.linkText("Create New Account")).click();
 WebElement firstName = driver.findElement(By.xpath("//input[@name='firstname']"));
+firstName.sendKeys("Tulin");
 
 
 
