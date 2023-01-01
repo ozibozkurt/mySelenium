@@ -35,5 +35,5 @@ public class Day04_RadioButton {
 
 driver.findElement(By.xpath("//*[.='Allow All Cookies']")).click();
 
-
+driver.findElement(By.linkText("Create New Account")).click();
 
