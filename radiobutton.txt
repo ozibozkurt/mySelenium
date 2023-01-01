@@ -66,6 +66,12 @@ WebElement femaleRadioButton = driver.findElement(By.xpath("(//input[@type='radi
         WebElement signUpButton = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
         signUpButton.click();
     }
+    //    @After
+//    public void tearDown(){
+//        driver.quit();
+//    }
+
+}
 
 
 
