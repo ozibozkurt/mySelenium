@@ -63,6 +63,9 @@ Thread.sleep(3000);
 WebElement femaleRadioButton = driver.findElement(By.xpath("(//input[@type='radio'])[1]"));
         femaleRadioButton.click();
         Thread.sleep(5000);
+        WebElement signUpButton = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
+        signUpButton.click();
+    }
 
 
 
