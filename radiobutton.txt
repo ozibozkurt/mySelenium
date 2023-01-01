@@ -33,7 +33,7 @@ public class Day04_RadioButton {
 @Test
     public void radioButtonTest() throws InterruptedException {
 
-
+driver.findElement(By.xpath("//*[.='Allow All Cookies']")).click();
 
 
 
