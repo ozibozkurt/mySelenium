@@ -45,12 +45,13 @@ WebElement lastName = driver.findElement(By.xpath("//input[@name='lastname']"));
         lastName.sendKeys("Mungan");
  Thread.sleep(3000);
         ////input[@name='reg_email__']
+        WebElement mobileBox = driver.findElement(By.xpath("//input[@name='reg_email__']"));
 
 
 
 
 
 
-        
+
 
 
