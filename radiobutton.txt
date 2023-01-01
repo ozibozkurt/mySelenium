@@ -50,7 +50,14 @@ WebElement lastName = driver.findElement(By.xpath("//input[@name='lastname']"));
 mobileBox.sendKeys("1234567");
         Thread.sleep(3000);
 
+// Dynamic xpath
+        //<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="reg_email__" value="" aria-required="true" placeholder="
 
+
+
+
+
+        
 
 
 
