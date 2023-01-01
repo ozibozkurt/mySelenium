@@ -59,7 +59,7 @@ mobileBox.sendKeys("1234567");
         WebElement passWord = driver.findElement(By.xpath("//input[@name='reg_passwd__']"));
         passWord.sendKeys("1234");
 
-
+Thread.sleep(3000);
 
 
 
