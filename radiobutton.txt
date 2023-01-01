@@ -53,11 +53,12 @@ mobileBox.sendKeys("1234567");
 // Dynamic xpath
         //<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="reg_email__" value="" aria-required="true" placeholder="
 
+// " aria-label="Mobile number or email address" id="u_6_g_45">
+        //u_2_g_+3
 
 
 
 
-        
 
 
 
