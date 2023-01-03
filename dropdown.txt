@@ -27,3 +27,4 @@ public class Day05_Dropdown {
           WebElement dropDown = driver.findElement(By.id("dropdown"));
           // Create an object from Select Class with webelement
           Select select = new Select(dropDown);
+          // Select the first option with index
