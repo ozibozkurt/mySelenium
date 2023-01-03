@@ -20,3 +20,5 @@ public class Day05_Dropdown {
            driver = new ChromeDriver();
            driver.manage().window().maximize();
                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+               driver.get("https://the-internet.herokuapp.com/dropdown");
+    }
