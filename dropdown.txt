@@ -19,3 +19,4 @@ public class Day05_Dropdown {
            System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe"); // MAC // For windows add .exe
            driver = new ChromeDriver();
            driver.manage().window().maximize();
+               driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
