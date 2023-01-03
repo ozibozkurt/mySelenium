@@ -24,3 +24,4 @@ public class Day05_Dropdown {
     }
      @Test
       public void selectByIndex() throws InterruptedException {
+          WebElement dropDown = driver.findElement(By.id("dropdown"));
