@@ -28,3 +28,4 @@ public class Day05_Dropdown {
           // Create an object from Select Class with webelement
           Select select = new Select(dropDown);
           // Select the first option with index
+          // ındexes are starting with 1
