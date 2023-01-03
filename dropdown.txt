@@ -29,3 +29,4 @@ public class Day05_Dropdown {
           Select select = new Select(dropDown);
           // Select the first option with index
           // ındexes are starting with 1
+          select.selectByIndex(1);
