@@ -16,3 +16,4 @@ public class Day05_Dropdown {
     // 1. Locate the webelement
      @Before
       public void setUp(){
+           System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe"); // MAC // For windows add .exe
