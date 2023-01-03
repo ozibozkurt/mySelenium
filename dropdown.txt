@@ -17,3 +17,4 @@ public class Day05_Dropdown {
      @Before
       public void setUp(){
            System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe"); // MAC // For windows add .exe
+           driver = new ChromeDriver();
