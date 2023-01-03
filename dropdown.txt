@@ -15,3 +15,4 @@ public class Day05_Dropdown {
     WebDriver driver;
     // 1. Locate the webelement
      @Before
+      public void setUp(){
