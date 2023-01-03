@@ -23,3 +23,4 @@ public class Day05_Dropdown {
                driver.get("https://the-internet.herokuapp.com/dropdown");
     }
      @Test
+      public void selectByIndex() throws InterruptedException {
