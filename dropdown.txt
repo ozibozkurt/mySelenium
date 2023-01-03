@@ -22,3 +22,4 @@ public class Day05_Dropdown {
                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
                driver.get("https://the-internet.herokuapp.com/dropdown");
     }
+     @Test
