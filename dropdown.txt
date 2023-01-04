@@ -39,3 +39,4 @@ public class Day05_Dropdown {
           Thread.sleep(5000);
     }
      @Test
+     public void selectByValue() throws InterruptedException {
