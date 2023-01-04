@@ -38,3 +38,4 @@ public class Day05_Dropdown {
           select.selectByIndex(1);
           Thread.sleep(5000);
     }
+     @Test
