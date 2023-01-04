@@ -31,3 +31,4 @@ public class Day05_Dropdown {
           // ındexes are starting with 1
           select.selectByIndex(1);
           Thread.sleep(5000);
+          // Select the second option with index
