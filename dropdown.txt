@@ -33,3 +33,4 @@ public class Day05_Dropdown {
           Thread.sleep(5000);
           // Select the second option with index
           select.selectByIndex(2);
+          Thread.sleep(5000);
