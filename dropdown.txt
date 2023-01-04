@@ -43,3 +43,4 @@ public class Day05_Dropdown {
          WebElement dropDown = driver.findElement(By.id("dropdown"));
          Select select = new Select(dropDown);
          select.selectByValue("1");   // Click Option 1
+         Thread.sleep(5000);
