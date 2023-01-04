@@ -45,3 +45,4 @@ public class Day05_Dropdown {
          select.selectByValue("1");   // Click Option 1
          Thread.sleep(5000);
          select.selectByValue("2"); // Click Option 2
+         Thread.sleep(5000);
