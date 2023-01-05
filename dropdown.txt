@@ -64,6 +64,7 @@ public class Day05_Dropdown {
          //        Select selectAmazon = new Select(dropDownamazon);
          //        selectAmazon.selectByVisibleText("Books");
     }
+    ///4.Create method printAllTest Print all dropdown value
 
 
 
