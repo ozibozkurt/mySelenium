@@ -62,6 +62,8 @@ public class Day05_Dropdown {
          // Example of Amazon
          //        WebElement dropDownamazon = driver.findElement(By.id("searchDropdownBox"));
          //        Select selectAmazon = new Select(dropDownamazon);
+         //        selectAmazon.selectByVisibleText("Books");
+    }
 
 
 
