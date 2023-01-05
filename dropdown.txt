@@ -53,3 +53,4 @@ public class Day05_Dropdown {
     public void selectByVisibleText() throws InterruptedException {
         WebElement dropDown = driver.findElement(By.id("dropdown"));
         Select select = new Select(dropDown);
+        select.selectByVisibleText("Option 1"); // Option 1
