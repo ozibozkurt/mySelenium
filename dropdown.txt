@@ -60,6 +60,7 @@ public class Day05_Dropdown {
          select.selectByVisibleText("Option 1"); // Option 1
          Thread.sleep(5000);
          // Example of Amazon
+         //        WebElement dropDownamazon = driver.findElement(By.id("searchDropdownBox"));
 
 
 
