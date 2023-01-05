@@ -57,3 +57,9 @@ public class Day05_Dropdown {
          Thread.sleep(5000);
          select.selectByVisibleText("Option 2"); // Option 2
          Thread.sleep(5000);
+         select.selectByVisibleText("Option 1"); // Option 1
+
+
+
+
+
