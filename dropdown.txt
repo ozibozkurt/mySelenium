@@ -67,6 +67,7 @@ public class Day05_Dropdown {
     ///4.Create method printAllTest Print all dropdown value
      @Test
     public void printAllOptions(){
+        WebElement dropDown = driver.findElement(By.id("dropdown"));
 
 
 
