@@ -79,6 +79,7 @@ public class Day05_Dropdown {
 
  @Test
  public void printFirstSelectedOptionTest(){
+      WebElement dropDown = driver.findElement(By.id("dropdown"));
 
 
 
