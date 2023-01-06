@@ -83,6 +83,7 @@ public class Day05_Dropdown {
        Select select = new Select(dropDown);
        WebElement firstOption =select.getFirstSelectedOption();
        String firstoptionText =firstOption.getText();
+        System.out.println("firstoptionText = " + firstoptionText);
 
 
 
