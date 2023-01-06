@@ -75,6 +75,15 @@ public class Day05_Dropdown {
              System.out.println("eachElement = " + eachElement.getText());
         }
     }
+    ////5.Create method printFirstSelectedOptionTest Print first selected option
+
+
+
+
+
+
+
+
 
 
 
