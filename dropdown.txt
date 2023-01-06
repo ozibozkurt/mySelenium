@@ -71,6 +71,7 @@ public class Day05_Dropdown {
         Select select = new Select(dropDown);
          // To store all options in a list
          List<WebElement> allOptions = select.getOptions();
+         for (WebElement eachElement:allOptions) {
 
 
 
