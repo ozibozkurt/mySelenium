@@ -69,6 +69,7 @@ public class Day05_Dropdown {
     public void printAllOptions(){
         WebElement dropDown = driver.findElement(By.id("dropdown"));
         Select select = new Select(dropDown);
+         // To store all options in a list
 
 
 
