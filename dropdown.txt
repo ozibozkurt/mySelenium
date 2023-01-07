@@ -88,6 +88,8 @@ public class Day05_Dropdown {
          Assert.assertEquals("Please select an option",firstoptionText);
     }
 
+     //6.Find the size of the dropdown,
+
 
 
 
