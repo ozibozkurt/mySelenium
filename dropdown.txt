@@ -96,6 +96,9 @@ public class Day05_Dropdown {
         Select select = new Select(dropDown);
          List<WebElement> allOptions = select.getOptions();
          int sizeDropDown = allOptions.size();
+         Assert.assertEquals("Expected Is Not Equal Actual",4,sizeDropDown);
+
+    }
 
 
 
