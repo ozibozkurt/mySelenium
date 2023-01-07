@@ -95,6 +95,7 @@ public class Day05_Dropdown {
        WebElement dropDown = driver.findElement(By.id("dropdown"));
         Select select = new Select(dropDown);
          List<WebElement> allOptions = select.getOptions();
+         int sizeDropDown = allOptions.size();
 
 
 
