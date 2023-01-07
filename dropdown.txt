@@ -92,6 +92,17 @@ public class Day05_Dropdown {
 // Print "Expected Is Not Equal Actual" if there are not 4 elements in the dropdown
   @Test
   public void sizeTest(){
+       WebElement dropDown = driver.findElement(By.id("dropdown"));
+
+
+
+
+
+
+
+
+
+       
 
 
 
