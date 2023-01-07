@@ -104,6 +104,7 @@ public class Day05_Dropdown {
           driver.quit();
     }
 }
+//driver.findElement(By.xpath("//*[.='Allow All Cookies']")).click();
 
 
 
