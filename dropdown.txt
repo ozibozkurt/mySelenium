@@ -101,6 +101,9 @@ public class Day05_Dropdown {
     }
     @After
      public void tearDown(){
+          driver.quit();
+    }
+}
 
 
 
