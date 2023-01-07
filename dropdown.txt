@@ -93,6 +93,7 @@ public class Day05_Dropdown {
   @Test
   public void sizeTest(){
        WebElement dropDown = driver.findElement(By.id("dropdown"));
+        Select select = new Select(dropDown);
 
 
 
@@ -102,7 +103,7 @@ public class Day05_Dropdown {
 
 
 
-       
+
 
 
 
