@@ -10,3 +10,4 @@ public class Day05_JavaFaker {
           // mock data
           Faker faker = new Faker();
           // THe first condition is creating an object
+           System.out.println("First Name = " + faker.name().firstName());
