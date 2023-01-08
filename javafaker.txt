@@ -2,3 +2,4 @@ import com.github.javafaker.Faker;
 import org.junit.Test;
 public class Day05_JavaFaker {
     @Test
+    public void fakerTest(){
