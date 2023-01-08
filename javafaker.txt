@@ -12,6 +12,7 @@ public class Day05_JavaFaker {
           // THe first condition is creating an object
            System.out.println("First Name = " + faker.name().firstName());
             System.out.println("Last Name = " + faker.name().lastName());
+            System.out.println("Full Name = " + faker.name().fullName());
 
 
 
