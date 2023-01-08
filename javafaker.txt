@@ -5,3 +5,4 @@ public class Day05_JavaFaker {
     public void fakerTest(){
         // DDT Data Driven Testing
         // Test Data Generator
+        // Generally for negative test cases
