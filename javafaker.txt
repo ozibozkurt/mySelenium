@@ -6,3 +6,4 @@ public class Day05_JavaFaker {
         // DDT Data Driven Testing
         // Test Data Generator
         // Generally for negative test cases
+         // Java faker we can create all test data like username, name, password, mail, address,zip code
