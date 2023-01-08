@@ -4,3 +4,4 @@ public class Day05_JavaFaker {
     @Test
     public void fakerTest(){
         // DDT Data Driven Testing
+        // Test Data Generator
