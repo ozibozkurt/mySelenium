@@ -15,6 +15,7 @@ public class Day05_JavaFaker {
             System.out.println("Full Name = " + faker.name().fullName());
             System.out.println("Username= " + faker.name().username());
             System.out.println("Password= " + faker.internet().password());
+             System.out.println("Title = " + faker.name().title());
 
 
 
