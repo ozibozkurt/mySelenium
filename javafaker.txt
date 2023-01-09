@@ -19,6 +19,11 @@ public class Day05_JavaFaker {
         System.out.println("email adress = " + faker.internet().emailAddress());
         System.out.println("Zip Code = " + faker.number().digits(11));
          System.out.println("City = " + faker.address().city());
+         System.out.println("Full Adress = " + faker.address().fullAddress());
+
+
+    }
+}
 
 
 
