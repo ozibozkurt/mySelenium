@@ -17,6 +17,7 @@ public class Day05_JavaFaker {
             System.out.println("Password= " + faker.internet().password());
              System.out.println("Title = " + faker.name().title());
         System.out.println("email adress = " + faker.internet().emailAddress());
+        System.out.println("Zip Code = " + faker.number().digits(11));
 
 
 
