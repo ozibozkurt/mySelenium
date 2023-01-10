@@ -16,3 +16,4 @@ public class Day05_JavaFakerTest {
      String tekPassword = faker.internet().password();
      @Before
       public void setUp() {
+           System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe"); // MAC // For windows add .exe
