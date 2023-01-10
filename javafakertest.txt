@@ -12,3 +12,4 @@ import java.time.Duration;
 
 public class Day05_JavaFakerTest {
      WebDriver driver;
+     Faker faker = new Faker();
