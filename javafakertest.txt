@@ -22,3 +22,4 @@ public class Day05_JavaFakerTest {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
              driver.get("https://www.facebook.com");
     }
+     @Test
