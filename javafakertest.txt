@@ -18,3 +18,4 @@ public class Day05_JavaFakerTest {
       public void setUp() {
            System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe"); // MAC // For windows add .exe
            driver = new ChromeDriver();
+            driver.manage().window().maximize();
