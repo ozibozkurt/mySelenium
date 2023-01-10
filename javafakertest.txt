@@ -14,3 +14,4 @@ public class Day05_JavaFakerTest {
      WebDriver driver;
      Faker faker = new Faker();
      String tekPassword = faker.internet().password();
+     @Before
