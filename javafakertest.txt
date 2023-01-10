@@ -24,3 +24,4 @@ public class Day05_JavaFakerTest {
     }
      @Test
      public void radioButtonTest() throws InterruptedException {
+         driver.findElement(By.xpath("//button[@title='Allow All Cookies']")).click();
