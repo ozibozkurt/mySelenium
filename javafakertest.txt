@@ -39,6 +39,7 @@ public class Day05_JavaFakerTest {
                Thread.sleep(3000);
                WebElement passWord = driver.findElement(By.xpath("//input[@name='reg_passwd__']"));
                 passWord.sendKeys(tekPassword);
+                 Thread.sleep(3000);
 
 
 
