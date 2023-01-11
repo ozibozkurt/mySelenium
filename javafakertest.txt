@@ -27,3 +27,9 @@ public class Day05_JavaFakerTest {
          driver.findElement(By.xpath("//button[@title='Allow All Cookies']")).click();
          driver.findElement(By.linkText("Create New Account")).click();
           WebElement firstName = driver.findElement(By.xpath("//input[@name='firstname']"));
+          firstName.sendKeys(faker.name().firstName());
+
+
+
+
+
