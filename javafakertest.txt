@@ -41,6 +41,7 @@ public class Day05_JavaFakerTest {
                 passWord.sendKeys(tekPassword);
                  Thread.sleep(3000);
                  // Selecting from dropdown
+                 WebElement dayDropDown = driver.findElement(By.id("day"));
 
 
 
