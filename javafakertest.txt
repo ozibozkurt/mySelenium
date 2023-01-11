@@ -35,6 +35,7 @@ public class Day05_JavaFakerTest {
              Thread.sleep(3000);
              ////input[@name='reg_email__']
               WebElement mobileBox = driver.findElement(By.xpath("//input[@name='reg_email__']"));
+              mobileBox.sendKeys(faker.phoneNumber().cellPhone());
 
 
 
