@@ -31,6 +31,7 @@ public class Day05_JavaFakerTest {
           Thread.sleep(3000);
             // lastname
             WebElement lastName = driver.findElement(By.xpath("//input[@name='lastname']"));
+             lastName.sendKeys(faker.name().lastName());
 
 
 
