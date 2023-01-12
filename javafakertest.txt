@@ -48,6 +48,7 @@ public class Day05_JavaFakerTest {
                   WebElement yearDropDown = driver.findElement(By.id("year"));
                    Select selectYear = new Select(yearDropDown);
                    // 10 Jan 2000
+                   // Select the day
 
 
 
