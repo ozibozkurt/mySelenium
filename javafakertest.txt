@@ -43,6 +43,7 @@ public class Day05_JavaFakerTest {
                  // Selecting from dropdown
                  WebElement dayDropDown = driver.findElement(By.id("day"));
                  Select selectDay = new Select(dayDropDown);
+                 WebElement monthDropDown = driver.findElement(By.id("month"));
 
 
 
