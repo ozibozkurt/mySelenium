@@ -54,6 +54,11 @@ public class Day05_JavaFakerTest {
                    // Select the month
                    selectMonth.selectByVisibleText("Jan");
                    Thread.sleep(5000);
+                   // Select year
+
+
+
+
 
 
 
