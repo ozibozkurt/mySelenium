@@ -42,6 +42,7 @@ public class Day05_JavaFakerTest {
                  Thread.sleep(3000);
                  // Selecting from dropdown
                  WebElement dayDropDown = driver.findElement(By.id("day"));
+                 Select selectDay = new Select(dayDropDown);
 
 
 
