@@ -49,6 +49,7 @@ public class Day05_JavaFakerTest {
                    Select selectYear = new Select(yearDropDown);
                    // 10 Jan 2000
                    // Select the day
+                   selectDay.selectByVisibleText("10");
 
 
 
