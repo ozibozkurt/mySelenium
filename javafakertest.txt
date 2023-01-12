@@ -51,6 +51,7 @@ public class Day05_JavaFakerTest {
                    // Select the day
                    selectDay.selectByVisibleText("10");
                    Thread.sleep(5000);
+                   // Select the month
 
 
 
