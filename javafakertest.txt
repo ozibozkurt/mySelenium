@@ -50,6 +50,7 @@ public class Day05_JavaFakerTest {
                    // 10 Jan 2000
                    // Select the day
                    selectDay.selectByVisibleText("10");
+                   Thread.sleep(5000);
 
 
 
