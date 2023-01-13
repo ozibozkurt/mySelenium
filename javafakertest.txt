@@ -65,6 +65,9 @@ public class Day05_JavaFakerTest {
     }
                     @After
                      public void tearDown(){
+                         //driver.quit();
+     }
+}
 
 
 
