@@ -63,6 +63,7 @@ public class Day05_JavaFakerTest {
                       WebElement signUpButton = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
                       signUpButton.click();
     }
+                    @After
 
 
 
