@@ -57,6 +57,7 @@ public class Day05_JavaFakerTest {
                    // Select year
                    selectYear.selectByVisibleText("2000");
                     Thread.sleep(5000);
+                     WebElement femaleRadioButton = driver.findElement(By.xpath("(//input[@type='radio'])[1]"));
 
 
 
