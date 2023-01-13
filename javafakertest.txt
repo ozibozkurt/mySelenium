@@ -61,6 +61,8 @@ public class Day05_JavaFakerTest {
                      femaleRadioButton.click();
                       Thread.sleep(5000);
                       WebElement signUpButton = driver.findElement(By.xpath("(//button[@type='submit'])[2]"));
+                      signUpButton.click();
+    }
 
 
 
