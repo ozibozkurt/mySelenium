@@ -11,3 +11,4 @@ import java.time.Duration;
 public class Day06_Alerts {
     WebDriver driver;
      @Before
+     public void setUp(){
