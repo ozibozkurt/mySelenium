@@ -19,3 +19,4 @@ public class Day06_Alerts {
          driver.get("http://the-internet.herokuapp.com/javascript_alerts");
     }
     @Test
+    public void acceptAlert(){
