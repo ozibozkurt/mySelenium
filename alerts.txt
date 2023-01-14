@@ -10,3 +10,4 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 public class Day06_Alerts {
     WebDriver driver;
+     @Before
