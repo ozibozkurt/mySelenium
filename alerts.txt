@@ -18,3 +18,4 @@ public class Day06_Alerts {
          driver.manage().window().maximize();
          driver.get("http://the-internet.herokuapp.com/javascript_alerts");
     }
+    @Test
