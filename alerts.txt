@@ -14,3 +14,4 @@ public class Day06_Alerts {
      public void setUp(){
          System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
          driver = new ChromeDriver();
+         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
