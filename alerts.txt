@@ -24,3 +24,4 @@ public class Day06_Alerts {
         //        verify the text "I am a JS Alert" ,
         //        click OK ,
         //        and Verify "You successfully clicked an alert"
+        //        locating he first button
