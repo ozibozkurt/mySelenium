@@ -28,3 +28,4 @@ public class Day06_Alerts {
         //        driver.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
          WebElement button1=driver.findElement(By.xpath("//button[@onclick='jsAlert()']"));
          //        clicking
+         button1.click();
