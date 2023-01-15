@@ -20,3 +20,4 @@ public class Day06_Alerts {
     }
     @Test
     public void acceptAlert(){
+        //        click on the first alert,
