@@ -22,3 +22,4 @@ public class Day06_Alerts {
     public void acceptAlert(){
         //        click on the first alert,
         //        verify the text "I am a JS Alert" ,
+        //        click OK ,
