@@ -35,3 +35,4 @@ public class Day06_Alerts {
          Assert.assertEquals("TEXT DOESN'T MATCH","I am a JS Alert",alertText);
          //        click OK
          //        Again, we cannot inspect Ok button on the ALERT
+         //        so we must switch to alert and accept
