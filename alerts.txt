@@ -36,3 +36,4 @@ public class Day06_Alerts {
          //        click OK
          //        Again, we cannot inspect Ok button on the ALERT
          //        so we must switch to alert and accept
+          driver.switchTo().alert().accept();
