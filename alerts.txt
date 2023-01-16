@@ -32,3 +32,4 @@ public class Day06_Alerts {
          //        verify the text "I am a JS Alert" ,
          //        We cannot inspect alert elements, so we must use switchTo() function to handle alerts
          String alertText = driver.switchTo().alert().getText();
+         Assert.assertEquals("TEXT DOESN'T MATCH","I am a JS Alert",alertText);
