@@ -29,3 +29,4 @@ public class Day06_Alerts {
          WebElement button1=driver.findElement(By.xpath("//button[@onclick='jsAlert()']"));
          //        clicking
          button1.click();
+         //        verify the text "I am a JS Alert" ,
