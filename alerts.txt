@@ -40,4 +40,6 @@ public class Day06_Alerts {
           //        and Verify "You successfully clicked an alert"
           String actualResult=driver.findElement(By.id("result")).getText();
           Assert.assertEquals("You successfully clicked an alert",actualResult);
+          @Test
+        public  void dismissAlert() {
     }
