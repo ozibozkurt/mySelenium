@@ -38,3 +38,4 @@ public class Day06_Alerts {
          //        so we must switch to alert and accept
           driver.switchTo().alert().accept();
           //        and Verify "You successfully clicked an alert"
+          String actualResult=driver.findElement(By.id("result")).getText();
