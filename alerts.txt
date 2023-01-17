@@ -39,3 +39,5 @@ public class Day06_Alerts {
           driver.switchTo().alert().accept();
           //        and Verify "You successfully clicked an alert"
           String actualResult=driver.findElement(By.id("result")).getText();
+          Assert.assertEquals("You successfully clicked an alert",actualResult);
+    }
