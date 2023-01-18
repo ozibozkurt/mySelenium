@@ -55,6 +55,7 @@ public class Day06_Alerts {
     }
      @Test
       public void sendKeysAlert() throws InterruptedException {
+           driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
 
 
     
