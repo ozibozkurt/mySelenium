@@ -50,6 +50,9 @@ public class Day06_Alerts {
               Assert.assertEquals("I am a JS Confirm",actualAlertText);
               driver.switchTo().alert().dismiss();
               String actualResult=driver.findElement(By.id("result")).getText();
+               Assert.assertEquals("You clicked: Cancel", actualResult);
+
+    }
 
 
     
