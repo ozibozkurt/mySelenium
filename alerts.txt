@@ -47,6 +47,7 @@ public class Day06_Alerts {
             // verify text "I am a JS Confirm", click cancel, and Verify "You clicked: Cancel"
              driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
              String actualAlertText = driver.switchTo().alert().getText();
+              Assert.assertEquals("I am a JS Confirm",actualAlertText);
 
 
     
