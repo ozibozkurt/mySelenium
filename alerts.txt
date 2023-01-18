@@ -49,6 +49,7 @@ public class Day06_Alerts {
              String actualAlertText = driver.switchTo().alert().getText();
               Assert.assertEquals("I am a JS Confirm",actualAlertText);
               driver.switchTo().alert().dismiss();
+              String actualResult=driver.findElement(By.id("result")).getText();
 
 
     
