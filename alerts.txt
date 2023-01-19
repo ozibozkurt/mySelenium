@@ -57,6 +57,7 @@ public class Day06_Alerts {
       public void sendKeysAlert() throws InterruptedException {
            driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
            String actualAlertText3 = driver.switchTo().alert().getText();
+           Assert.assertEquals("I am a JS prompt",actualAlertText3);
 
 
     
