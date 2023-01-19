@@ -61,6 +61,7 @@ public class Day06_Alerts {
             driver.switchTo().alert().sendKeys("Hello Word");
             driver.switchTo().alert().accept();
             //isim esit  mi
+             WebElement note = driver.findElement(By.xpath("//p[@id='result']"));
 
 
     
