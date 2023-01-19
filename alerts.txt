@@ -58,6 +58,7 @@ public class Day06_Alerts {
            driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
            String actualAlertText3 = driver.switchTo().alert().getText();
            Assert.assertEquals("I am a JS prompt",actualAlertText3);
+            driver.switchTo().alert().sendKeys("Hello Word");
 
 
     
