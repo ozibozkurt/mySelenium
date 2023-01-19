@@ -60,6 +60,7 @@ public class Day06_Alerts {
            Assert.assertEquals("I am a JS prompt",actualAlertText3);
             driver.switchTo().alert().sendKeys("Hello Word");
             driver.switchTo().alert().accept();
+            //isim esit  mi
 
 
     
