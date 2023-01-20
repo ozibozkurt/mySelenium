@@ -64,6 +64,11 @@ public class Day06_Alerts {
              WebElement note = driver.findElement(By.xpath("//p[@id='result']"));
               String actualResult2 = note.getText();
               String expectedResult = "Hello Word";
+              Assert.assertTrue(actualResult2.contains(expectedResult));
+    }
+
+
+}
 
 
     
