@@ -31,3 +31,4 @@ public class Day06_IFrameTest {
           String boldedText = driver.findElement(By.xpath("//h3")).getText();
            Assert.assertTrue(boldedText.contains("Editor"));
            //        WE MUST SWITCH TO THE IFRAME TO LOCATE THE ELEMENTS INSIDE THE IFRAME
+           //        THERE ARE 3 WAYS TO SWITCH TO IFRAME
