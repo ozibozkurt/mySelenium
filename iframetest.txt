@@ -21,3 +21,4 @@ public class Day06_IFrameTest {
     /*
      * If your test case fails, there might be different reasons:
      * 1. Locator may not be correct
+     * 2. If your locator is correct, then it can be time out issue. You can add more waits
