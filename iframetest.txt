@@ -28,3 +28,4 @@ public class Day06_IFrameTest {
      @Test
       public void iframeTest(){
           //    Verify the Bolded text contains "Editor"
+          String boldedText = driver.findElement(By.xpath("//h3")).getText();
