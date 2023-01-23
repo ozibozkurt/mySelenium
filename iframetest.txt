@@ -18,3 +18,5 @@ public class Day06_IFrameTest {
          driver.manage().window().maximize();
           driver.get("https://the-internet.herokuapp.com/iframe");
     }
+    /*
+     * If your test case fails, there might be different reasons:
