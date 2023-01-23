@@ -15,3 +15,4 @@ public class Day06_IFrameTest {
          System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
          driver = new ChromeDriver();
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+         driver.manage().window().maximize();
