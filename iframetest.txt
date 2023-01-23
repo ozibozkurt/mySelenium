@@ -33,3 +33,4 @@ public class Day06_IFrameTest {
            //        WE MUST SWITCH TO THE IFRAME TO LOCATE THE ELEMENTS INSIDE THE IFRAME
            //        THERE ARE 3 WAYS TO SWITCH TO IFRAME
            //        1. INDEX. index starts from 0
+           //        driver.switchTo().frame(0);// switching the first frame by index
