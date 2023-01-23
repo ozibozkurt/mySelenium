@@ -13,3 +13,4 @@ public class Day06_IFrameTest {
      @Before
      public void setUp(){
          System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+         driver = new ChromeDriver();
