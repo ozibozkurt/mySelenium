@@ -37,3 +37,4 @@ public class Day06_IFrameTest {
            //        2. ID OR NAME
            //        driver.switchTo().frame("mce_0_ifr");
            //        3. WEBELEMENT
+           WebElement iframeElement = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
