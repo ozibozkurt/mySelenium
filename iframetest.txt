@@ -48,3 +48,4 @@ public class Day06_IFrameTest {
              //    Verify the text Elemental Selenium text is displayed on the page
              //        That element is OUTSIDE of the iframe. Then switch to the Parent or Default content
                driver.switchTo().defaultContent();
+                WebElement elementalSelenium = driver.findElement(By.linkText("Elemental Selenium"));
