@@ -41,3 +41,4 @@ public class Day06_IFrameTest {
            driver.switchTo().frame(iframeElement);
            //    Locate the text box
            WebElement textBox = driver.findElement(By.xpath("//p"));
+           //    Delete the text in the text box
