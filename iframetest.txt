@@ -54,3 +54,6 @@ public class Day06_IFrameTest {
     }
       @After
        public void tearDown(){
+           driver.quit();
+    }
+}
