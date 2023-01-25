@@ -44,3 +44,4 @@ public class Day06_IFrameTest {
            //    Delete the text in the text box
             textBox.clear();
             //    Type "This text box is inside the iframe"
+             textBox.sendKeys("This text box is inside the iframe");
