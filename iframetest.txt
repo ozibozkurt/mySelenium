@@ -46,3 +46,4 @@ public class Day06_IFrameTest {
             //    Type "This text box is inside the iframe"
              textBox.sendKeys("This text box is inside the iframe");
              //    Verify the text Elemental Selenium text is displayed on the page
+             //        That element is OUTSIDE of the iframe. Then switch to the Parent or Default content
