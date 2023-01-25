@@ -40,3 +40,4 @@ public class Day06_IFrameTest {
            WebElement iframeElement = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
            driver.switchTo().frame(iframeElement);
            //    Locate the text box
+           WebElement textBox = driver.findElement(By.xpath("//p"));
