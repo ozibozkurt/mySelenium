@@ -45,3 +45,4 @@ public class Day06_IFrameTest {
             textBox.clear();
             //    Type "This text box is inside the iframe"
              textBox.sendKeys("This text box is inside the iframe");
+             //    Verify the text Elemental Selenium text is displayed on the page
