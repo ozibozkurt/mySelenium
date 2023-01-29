@@ -22,3 +22,4 @@ public class Day06_IFrameTest2 {
          //        Answer: I use tagname with iframe and get the size.
          //        Go to amazon
          //        print the number of iframe
+         int numberOfFrame = driver.findElements(By.tagName("iframe")).size();
