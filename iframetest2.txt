@@ -24,3 +24,5 @@ public class Day06_IFrameTest2 {
          //        print the number of iframe
          int numberOfFrame = driver.findElements(By.tagName("iframe")).size();
          System.out.println(numberOfFrame);
+         }
+    @After
