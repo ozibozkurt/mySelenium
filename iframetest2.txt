@@ -26,3 +26,4 @@ public class Day06_IFrameTest2 {
          System.out.println(numberOfFrame);
          }
     @After
+    public void tearDown(){
