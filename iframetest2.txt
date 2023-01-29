@@ -20,3 +20,4 @@ public class Day06_IFrameTest2 {
     public void iframeSize(){
          //        How to you find the total number of iframe of a page?
          //        Answer: I use tagname with iframe and get the size.
+         //        Go to amazon
