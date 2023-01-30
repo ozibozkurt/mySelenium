@@ -10,3 +10,4 @@ import java.time.Duration;
 import java.util.Set;
 public class Day06_NewTabs {
      WebDriver driver;
+     @Before
