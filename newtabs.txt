@@ -21,3 +21,4 @@ public class Day06_NewTabs {
     @Test
      public void newTabs() throws InterruptedException {
          //        WINDOW HANDLE: getWindowHandle(); return the window handle of the current window.
+        String window1Handle = driver.getWindowHandle();
