@@ -19,3 +19,4 @@ public class Day06_NewTabs {
          driver.get("https://the-internet.herokuapp.com/windows");
     }
     @Test
+     public void newTabs() throws InterruptedException {
