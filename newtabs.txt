@@ -28,3 +28,4 @@ public class Day06_NewTabs {
          Assert.assertEquals("Opening a new window",window1Text);
          //        Then user verifies the title of the page is "The Internet"
          String window1Title = driver.getTitle();
+         Assert.assertEquals("The Internet",window1Title);
