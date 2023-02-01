@@ -25,3 +25,4 @@ public class Day06_NewTabs {
         System.out.println(window1Handle);
         //        Then user verifies the text : "Opening a new window"
         String window1Text = driver.findElement(By.xpath("//h3")).getText();
+         Assert.assertEquals("Opening a new window",window1Text);
