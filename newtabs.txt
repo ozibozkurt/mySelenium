@@ -24,3 +24,4 @@ public class Day06_NewTabs {
         String window1Handle = driver.getWindowHandle();
         System.out.println(window1Handle);
         //        Then user verifies the text : "Opening a new window"
+        String window1Text = driver.findElement(By.xpath("//h3")).getText();
