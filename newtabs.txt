@@ -23,3 +23,4 @@ public class Day06_NewTabs {
          //        WINDOW HANDLE: getWindowHandle(); return the window handle of the current window.
         String window1Handle = driver.getWindowHandle();
         System.out.println(window1Handle);
+        //        Then user verifies the text : "Opening a new window"
