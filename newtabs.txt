@@ -42,3 +42,4 @@ public class Day06_NewTabs {
                   break;
             }
         }
+        //        Then user verifies the new window title is "New Window"
