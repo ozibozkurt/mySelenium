@@ -29,3 +29,4 @@ public class Day06_NewTabs {
          //        Then user verifies the title of the page is "The Internet"
          String window1Title = driver.getTitle();
          Assert.assertEquals("The Internet",window1Title);
+         //        When user clicks on the "Click Here" button
