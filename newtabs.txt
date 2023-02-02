@@ -35,3 +35,4 @@ public class Day06_NewTabs {
          //        Getting all open window handles
           Set<String> allWindowHandles = driver.getWindowHandles();
           //        Switching to the second window.
+          //        Logic: Switch IF DRIVER IS NOT ON THE WINDOW1
