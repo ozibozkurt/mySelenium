@@ -30,3 +30,4 @@ public class Day06_NewTabs {
          String window1Title = driver.getTitle();
          Assert.assertEquals("The Internet",window1Title);
          //        When user clicks on the "Click Here" button
+         driver.findElement(By.linkText("Click Here")).click();
