@@ -37,3 +37,4 @@ public class Day06_NewTabs {
           //        Switching to the second window.
           //        Logic: Switch IF DRIVER IS NOT ON THE WINDOW1
           for (String eachWindowHandle : allWindowHandles){
+              if (!eachWindowHandle.equals(window1Handle)){
