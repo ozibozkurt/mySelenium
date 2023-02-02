@@ -39,3 +39,6 @@ public class Day06_NewTabs {
           for (String eachWindowHandle : allWindowHandles){
               if (!eachWindowHandle.equals(window1Handle)){
                   driver.switchTo().window(eachWindowHandle);
+                  break;
+            }
+        }
