@@ -32,3 +32,5 @@ public class Day06_NewTabs {
          //        When user clicks on the "Click Here" button
          driver.findElement(By.linkText("Click Here")).click();
          //        NOTE : when we click the link new tab open. THEN we must switch to the new tab
+         //        Getting all open window handles
+         
