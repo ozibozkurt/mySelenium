@@ -44,3 +44,4 @@ public class Day06_NewTabs {
         }
         //        Then user verifies the new window title is "New Window"
         String window2Title = driver.getTitle();
+        Assert.assertEquals("New Window",window2Title);
