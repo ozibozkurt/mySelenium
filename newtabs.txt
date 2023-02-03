@@ -47,3 +47,4 @@ public class Day06_NewTabs {
         Assert.assertEquals("New Window",window2Title);
         String window2Handle = driver.getWindowHandle();
         System.out.println(window2Handle);
+        //        Then user verifies the text: "New Window"
