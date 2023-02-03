@@ -43,3 +43,4 @@ public class Day06_NewTabs {
             }
         }
         //        Then user verifies the new window title is "New Window"
+        String window2Title = driver.getTitle();
