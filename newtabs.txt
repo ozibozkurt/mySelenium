@@ -50,3 +50,4 @@ public class Day06_NewTabs {
         //        Then user verifies the text: "New Window"
         String window2Text = driver.findElement(By.xpath("//h3")).getText();
         Assert.assertEquals("New Window",window2Text);
+        //        When user goes back to the previous window and then verifies the title : "The Internet"
