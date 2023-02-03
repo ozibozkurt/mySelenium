@@ -53,3 +53,4 @@ public class Day06_NewTabs {
         //        When user goes back to the previous window and then verifies the title : "The Internet"
         //Switching back to window 1
         Thread.sleep(5000);
+        driver.switchTo().window(window1Handle);
