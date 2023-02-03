@@ -48,3 +48,4 @@ public class Day06_NewTabs {
         String window2Handle = driver.getWindowHandle();
         System.out.println(window2Handle);
         //        Then user verifies the text: "New Window"
+        String window2Text = driver.findElement(By.xpath("//h3")).getText();
