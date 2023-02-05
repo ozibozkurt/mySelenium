@@ -59,4 +59,5 @@ public class Day06_NewTabs {
         Thread.sleep(5000);
         driver.switchTo().window(window2Handle);
         //Switching back to window 1
+        Thread.sleep(5000);
         
