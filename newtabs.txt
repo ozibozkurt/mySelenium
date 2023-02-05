@@ -62,4 +62,5 @@ public class Day06_NewTabs {
         Thread.sleep(5000);
         driver.switchTo().window(window1Handle);
     }
-    
+    @After
+        
