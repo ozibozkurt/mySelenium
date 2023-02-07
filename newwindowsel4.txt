@@ -5,3 +5,5 @@ import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 public class Day06_NewWindowSel4 {
+    @Test
+    public void newWindowsTest() throws InterruptedException {
