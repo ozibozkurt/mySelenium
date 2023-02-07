@@ -7,3 +7,4 @@ import java.time.Duration;
 public class Day06_NewWindowSel4 {
     @Test
     public void newWindowsTest() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
