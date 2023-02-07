@@ -9,4 +9,5 @@ public class Day06_NewWindowSel4 {
     public void newWindowsTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         
