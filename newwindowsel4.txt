@@ -14,4 +14,4 @@ public class Day06_NewWindowSel4 {
         //        Open google in window 1
         driver.get("https://www.google.com");
         String googleHandle = driver.getWindowHandle();
-        
+        //        Open amazon in window 2
