@@ -16,3 +16,4 @@ public class Day06_NewWindowSel4 {
         String googleHandle = driver.getWindowHandle();
         //        Open amazon in window 2
         //        Crating a new empty window and switching it
+         driver.switchTo().newWindow(WindowType.WINDOW);//WindowType.WINDOW
