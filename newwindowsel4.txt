@@ -12,3 +12,5 @@ public class Day06_NewWindowSel4 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         //        Open google in window 1
+        driver.get("https://www.google.com");
+        
