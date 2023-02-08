@@ -17,3 +17,4 @@ public class Day06_NewWindowSel4 {
         //        Open amazon in window 2
         //        Crating a new empty window and switching it
          driver.switchTo().newWindow(WindowType.WINDOW);//WindowType.WINDOW
+         driver.get("https://www.amazon.com");
