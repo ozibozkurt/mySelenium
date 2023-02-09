@@ -23,3 +23,4 @@ public class Day06_NewWindowSel4 {
          driver.switchTo().newWindow(WindowType.WINDOW);
          driver.get("https://www.linkedin.com");
          String linkedinHandle = driver.getWindowHandle();
+         //        SWITCH BACK TO google window
