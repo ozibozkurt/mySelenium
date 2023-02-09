@@ -20,3 +20,4 @@ public class Day06_NewWindowSel4 {
          driver.get("https://www.amazon.com");
          String amazonHandle = driver.getWindowHandle();
          //       Open linkedin in window 3
+         driver.switchTo().newWindow(WindowType.WINDOW);
