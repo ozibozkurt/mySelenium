@@ -29,3 +29,4 @@ public class Day06_NewWindowSel4 {
          System.out.println("GOOGLE URL => "+driver.getCurrentUrl());
 
          //        Switch back to amazon
+          Thread.sleep(5000);
