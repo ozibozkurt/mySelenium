@@ -36,5 +36,6 @@ public class Day06_NewWindowSel4 {
            Thread.sleep(5000);
             driver.switchTo().window(linkedinHandle);
             System.out.println("LINKED URL => "+driver.getCurrentUrl());
+            
             }
             }
