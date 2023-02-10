@@ -26,3 +26,4 @@ public class Day06_NewWindowSel4 {
          //        SWITCH BACK TO google window
          Thread.sleep(5000);
          driver.switchTo().window(googleHandle);
+         System.out.println("GOOGLE URL => "+driver.getCurrentUrl());
