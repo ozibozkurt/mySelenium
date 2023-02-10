@@ -30,3 +30,4 @@ public class Day06_NewWindowSel4 {
 
          //        Switch back to amazon
           Thread.sleep(5000);
+          driver.switchTo().window(amazonHandle);
