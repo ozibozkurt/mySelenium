@@ -34,3 +34,4 @@ public class Day06_NewWindowSel4 {
           System.out.println("AMAZON URL => "+driver.getCurrentUrl());
           //        Switch back to linkedin
            Thread.sleep(5000);
+            driver.switchTo().window(linkedinHandle);
