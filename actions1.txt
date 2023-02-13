@@ -12,3 +12,5 @@ import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 public class Day07_Actions1 {
     //    Create a class: Actions1
+    //    Create a test method : contextClickMethod() and test the following scenario:
+    
