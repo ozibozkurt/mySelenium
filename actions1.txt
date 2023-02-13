@@ -14,3 +14,4 @@ public class Day07_Actions1 {
     //    Create a class: Actions1
     //    Create a test method : contextClickMethod() and test the following scenario:
     //    Given user is on the https://the-internet.herokuapp.com/context_menu
+    //    When use Right clicks on the box
