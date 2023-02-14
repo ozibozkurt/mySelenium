@@ -19,3 +19,4 @@ public class Day07_Actions1 {
     //    Then accept the alert
        WebDriver driver;
         @Before
+        public void setUp(){
