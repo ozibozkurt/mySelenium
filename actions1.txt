@@ -22,3 +22,4 @@ public class Day07_Actions1 {
         public void setUp(){
              WebDriverManager.chromedriver().setup();
              driver= new ChromeDriver();
+             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
