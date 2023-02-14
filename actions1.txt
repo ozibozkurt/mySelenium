@@ -18,3 +18,4 @@ public class Day07_Actions1 {
     //    Then verify the alert message is "You selected a context menu"
     //    Then accept the alert
        WebDriver driver;
+        @Before
