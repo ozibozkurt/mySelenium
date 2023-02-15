@@ -29,3 +29,4 @@ public class Day07_Actions1 {
       public void contextClickMethod(){
           driver.get("https://the-internet.herokuapp.com/context_menu");
           WebElement rectangle = driver.findElement(By.id("hot-spot"));
+          //        1. Create Actions class
