@@ -27,4 +27,4 @@ public class Day07_Actions1 {
     }
       @Test
       public void contextClickMethod(){
-          
+          driver.get("https://the-internet.herokuapp.com/context_menu");
