@@ -26,3 +26,5 @@ public class Day07_Actions1 {
              driver.manage().window().maximize();
     }
       @Test
+      public void contextClickMethod(){
+          
