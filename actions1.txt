@@ -33,3 +33,4 @@ public class Day07_Actions1 {
            Actions actions = new Actions(driver);
            //        2. use actions method that is needed
            //      When use Right clicks on the box
+            actions.contextClick(rectangle).perform();
