@@ -34,3 +34,4 @@ public class Day07_Actions1 {
            //        2. use actions method that is needed
            //      When use Right clicks on the box
             actions.contextClick(rectangle).perform();
+            //    Then verify the alert message is "You selected a context menu"
