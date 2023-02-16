@@ -35,3 +35,4 @@ public class Day07_Actions1 {
            //      When use Right clicks on the box
             actions.contextClick(rectangle).perform();
             //    Then verify the alert message is "You selected a context menu"
+            Assert.assertEquals("You selected a context menu",driver.switchTo().alert().getText());
