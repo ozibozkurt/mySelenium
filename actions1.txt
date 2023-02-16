@@ -31,3 +31,4 @@ public class Day07_Actions1 {
           WebElement rectangle = driver.findElement(By.id("hot-spot"));
           //        1. Create Actions class
            Actions actions = new Actions(driver);
+           //        2. use actions method that is needed
