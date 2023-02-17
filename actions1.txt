@@ -39,3 +39,5 @@ public class Day07_Actions1 {
             //    Then accept the alert
              driver.switchTo().alert().accept();
               }
+              @After
+              
