@@ -14,3 +14,4 @@ import java.time.Duration;
 public class Day07_Actions2 extends TestBase {
     //    Create a class: Actions2
     //    Create test method : hoverOver() and test the following scenario:
+    //    Given user is on the https://www.amazon.com/
