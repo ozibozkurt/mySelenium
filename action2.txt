@@ -17,3 +17,4 @@ public class Day07_Actions2 extends TestBase {
     //    Given user is on the https://www.amazon.com/
     //    When use click on "Account" link
     //    Then verify the page title contains "Your Account"
+        @Test
