@@ -22,3 +22,4 @@ public class Day07_Actions2 extends TestBase {
              driver.get("https://www.amazon.com/");
               WebElement accountList = driver.findElement(By.id("nav-link-accountList"));
               //        1. Crete actions class
+              Actions actions = new Actions(driver);
