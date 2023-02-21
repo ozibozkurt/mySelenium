@@ -19,3 +19,4 @@ public class Day07_Actions2 extends TestBase {
     //    Then verify the page title contains "Your Account"
         @Test
         public void hoverOver() throws InterruptedException {
+             driver.get("https://www.amazon.com/");
