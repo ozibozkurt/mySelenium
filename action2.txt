@@ -27,3 +27,4 @@ public class Day07_Actions2 extends TestBase {
               //        Move the mouse over account list element
                actions.moveToElement(accountList).perform();
                 Thread.sleep(3000);
+                //        clicking on Account option
