@@ -25,3 +25,4 @@ public class Day07_Actions2 extends TestBase {
               Actions actions = new Actions(driver);
               //        2. Use proper actions method
               //        Move the mouse over account list element
+               actions.moveToElement(accountList).perform();
