@@ -28,3 +28,4 @@ public class Day07_Actions2 extends TestBase {
                actions.moveToElement(accountList).perform();
                 Thread.sleep(3000);
                 //        clicking on Account option
+                driver.findElement(By.linkText("Account")).click();
