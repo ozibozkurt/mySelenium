@@ -24,3 +24,4 @@ public class Day07_Actions2 extends TestBase {
               //        1. Crete actions class
               Actions actions = new Actions(driver);
               //        2. Use proper actions method
+              //        Move the mouse over account list element
