@@ -30,3 +30,8 @@ public class Day07_Actions2 extends TestBase {
                 //        clicking on Account option
                 driver.findElement(By.linkText("Account")).click();
                 //    Then verify the page title contains "Your Account"
+                Assert.assertEquals("Your Account",driver.getTitle());
+    }
+
+
+}
