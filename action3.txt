@@ -12,3 +12,4 @@ public class Day07_Actions3 extends TestBase {
 //
  WebElement searchBox=driver.findElement(By.name("q"));
  //        Send iPhone X prices => convert small letter capital vice versa.
+ //        Highlight the search box by double clicking
