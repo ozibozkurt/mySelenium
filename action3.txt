@@ -14,4 +14,5 @@ public class Day07_Actions3 extends TestBase {
  //        Send iPhone X prices => convert small letter capital vice versa.
  //        Highlight the search box by double clicking
  //        searchBox.sendKeys("iPhone X prices"+Keys.ENTER);
+ //        1. Create actions object for keyboard actions
  
