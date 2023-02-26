@@ -15,4 +15,4 @@ public class Day07_Actions3 extends TestBase {
  //        Highlight the search box by double clicking
  //        searchBox.sendKeys("iPhone X prices"+Keys.ENTER);
  //        1. Create actions object for keyboard actions
- 
+  Actions actions = new Actions(driver);
