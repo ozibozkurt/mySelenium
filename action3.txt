@@ -24,3 +24,4 @@ public class Day07_Actions3 extends TestBase {
       .sendKeys(" too expensive OMG!"+Keys.ENTER)//Typing and pressing +Keys.ENTER = Press ENTER
       .perform();//Execute actions class. Without perform Actions will not work
       }
+      }
