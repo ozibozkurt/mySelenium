@@ -21,3 +21,4 @@ public class Day07_Actions3 extends TestBase {
       .keyDown(searchBox, Keys.SHIFT)//pressing the shift on searchBox    //keydown basili tut demek
       .sendKeys("iPhone X prices")//typing in the search box  
       .keyUp(searchBox,Keys.SHIFT)//un pressing
+      .sendKeys(" too expensive OMG!"+Keys.ENTER)//Typing and pressing +Keys.ENTER = Press ENTER
