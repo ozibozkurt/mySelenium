@@ -17,6 +17,7 @@ public class Day07_Actions3 extends TestBase {
  //        1. Create actions object for keyboard actions
   Actions actions = new Actions(driver);
   //        2. use the proper actions methods
+  
         actions
       .keyDown(searchBox, Keys.SHIFT)//pressing the shift on searchBox    //keydown basili tut demek
       .sendKeys("iPhone X prices")//typing in the search box  
