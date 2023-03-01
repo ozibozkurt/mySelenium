@@ -7,3 +7,5 @@ public class Day07_Actions4 extends TestBase {
     @Test
     public void scrollUpDown() throws InterruptedException {
          driver.get("https://www.amazon.com");
+
+//        1. create actions
