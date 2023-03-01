@@ -11,4 +11,5 @@ public class Day07_Actions4 extends TestBase {
 //        1. create actions
    Actions actions = new Actions(driver);
    //        2. use proper actions method
+     Thread.sleep(3000);
 
