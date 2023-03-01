@@ -5,3 +5,4 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 public class Day07_Actions4 extends TestBase {
     @Test
+    public void scrollUpDown() throws InterruptedException {
