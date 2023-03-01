@@ -9,3 +9,5 @@ public class Day07_Actions4 extends TestBase {
          driver.get("https://www.amazon.com");
 
 //        1. create actions
+   Actions actions = new Actions(driver);
+   
