@@ -12,4 +12,5 @@ public class Day07_Actions4 extends TestBase {
    Actions actions = new Actions(driver);
    //        2. use proper actions method
      Thread.sleep(3000);
+     actions.sendKeys(Keys.PAGE_DOWN).perform();// scrolling page down
 
