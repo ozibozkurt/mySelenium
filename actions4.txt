@@ -13,4 +13,5 @@ public class Day07_Actions4 extends TestBase {
    //        2. use proper actions method
      Thread.sleep(3000);
      actions.sendKeys(Keys.PAGE_DOWN).perform();// scrolling page down
+     Thread.sleep(3000);
 
