@@ -18,4 +18,5 @@ public class Day07_Actions4 extends TestBase {
      //    ARROW_DOWN moving page down a little bit.
      Thread.sleep(3000);
       actions.sendKeys(Keys.ARROW_DOWN).perform();// scrolling page down
+      Thread.sleep(3000);
 
