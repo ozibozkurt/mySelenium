@@ -10,3 +10,4 @@ import java.time.Duration;
 public class Day07_WebDriverManager {
      WebDriver driver;
      //    System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
+     //    =>>>>>WebDriverManager.chromedriver().setup();
