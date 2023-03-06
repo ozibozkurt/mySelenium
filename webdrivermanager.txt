@@ -14,3 +14,4 @@ public class Day07_WebDriverManager {
      //    import io.github.bonigarcia.wdm.WebDriverManager;
       @Before
       public void setUp(){
+           //        System.setProperty("webdriver.chrome.driver","./drivers/chromedriver");
