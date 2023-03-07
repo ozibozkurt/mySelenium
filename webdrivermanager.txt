@@ -19,4 +19,4 @@ public class Day07_WebDriverManager {
            //        WebDriverManager.chromedriver().setup(); calls and setup the driver
            //        This is more efficient, no need to give path, automatically used required driver related files
            //        easy to use. easy to create different driver
-           
+                //WebDriverManager.firefoxdriver().setup();
