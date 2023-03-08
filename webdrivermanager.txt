@@ -21,3 +21,4 @@ public class Day07_WebDriverManager {
            //        easy to use. easy to create different driver
                 //WebDriverManager.firefoxdriver().setup();
                    WebDriverManager.chromedriver().setup();
+                   //        Below will run headless.
