@@ -25,3 +25,4 @@ public class Day07_WebDriverManager {
                    //        You will not see the browser opened.
                    //        But test will execute
                    //        driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
+                    driver= new ChromeDriver();
