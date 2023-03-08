@@ -22,3 +22,4 @@ public class Day07_WebDriverManager {
                 //WebDriverManager.firefoxdriver().setup();
                    WebDriverManager.chromedriver().setup();
                    //        Below will run headless.
+                   //        You will not see the browser opened.
