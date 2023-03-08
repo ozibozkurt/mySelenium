@@ -26,3 +26,4 @@ public class Day07_WebDriverManager {
                    //        But test will execute
                    //        driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     driver= new ChromeDriver();
+                    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
