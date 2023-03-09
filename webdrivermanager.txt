@@ -32,3 +32,6 @@ public class Day07_WebDriverManager {
                      @Test
                       public void test(){
                             driver.get("https://www.amazon.com");
+                            System.out.println(driver.getTitle());
+    }
+}
