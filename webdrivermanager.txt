@@ -29,3 +29,4 @@ public class Day07_WebDriverManager {
                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     driver.manage().window().maximize();
                     }
+                     @Test
