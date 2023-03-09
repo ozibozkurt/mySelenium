@@ -27,3 +27,4 @@ public class Day07_WebDriverManager {
                    //        driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     driver= new ChromeDriver();
                     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+                    driver.manage().window().maximize();
