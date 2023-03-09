@@ -30,3 +30,4 @@ public class Day07_WebDriverManager {
                     driver.manage().window().maximize();
                     }
                      @Test
+                      public void test(){
