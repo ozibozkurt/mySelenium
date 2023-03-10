@@ -1,1 +1,2 @@
 package com.myfirstproject;
+import com.github.javafaker.Faker;
