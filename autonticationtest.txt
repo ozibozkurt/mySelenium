@@ -10,3 +10,4 @@ public class Day08_AuthenticationTest extends TestBase {
     @Test
     public void basicAuth(){
         //Authentication is done for verification
+         //https://the-internet.herokuapp.com/basic_auth
