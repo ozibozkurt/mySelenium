@@ -19,4 +19,5 @@ public class Day08_AuthenticationTest extends TestBase {
           String congratsMessage = driver.findElement(By.xpath("//p")).getText();
           Assert.assertTrue(congratsMessage.contains("Congratulations!"));
     }
+     @Test
 
