@@ -21,4 +21,6 @@ public class Day08_AuthenticationTest extends TestBase {
     }
      @Test
      public void automationPractice () {
+          driver.get("https://www.automationpractice.com");
+
 
