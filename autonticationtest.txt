@@ -13,3 +13,4 @@ public class Day08_AuthenticationTest extends TestBase {
          //https://the-internet.herokuapp.com/basic_auth
          //username: admin
           //password:admin
+          //https://username:password@url
