@@ -23,5 +23,6 @@ public class Day08_AuthenticationTest extends TestBase {
      public void automationPractice () {
           driver.get("https://www.automationpractice.com");
            driver.findElement(By.xpath("//a[@class='login']")).click();
+           WebElement authentication = driver.findElement(By.xpath("//h1[@class='page-heading']"));
 
 
