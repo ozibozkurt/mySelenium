@@ -20,4 +20,5 @@ public class Day08_AuthenticationTest extends TestBase {
           Assert.assertTrue(congratsMessage.contains("Congratulations!"));
     }
      @Test
+     public void automationPractice () {
 
