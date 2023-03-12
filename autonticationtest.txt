@@ -14,3 +14,4 @@ public class Day08_AuthenticationTest extends TestBase {
          //username: admin
           //password:admin
           //https://username:password@url
+          driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
