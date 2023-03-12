@@ -27,6 +27,6 @@ public class Day08_AuthenticationTest extends TestBase {
             Assert.assertTrue(authentication.isDisplayed());
             Faker faker = new Faker();
              driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys(faker.internet().emailAddress());
-
+         driver.findElement(By.linkText("Create an account")).click();
 
 
