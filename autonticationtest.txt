@@ -26,5 +26,7 @@ public class Day08_AuthenticationTest extends TestBase {
            WebElement authentication = driver.findElement(By.xpath("//h1[@class='page-heading']"));
             Assert.assertTrue(authentication.isDisplayed());
             Faker faker = new Faker();
+             driver.findElement(By.xpath("//input[@id='email_create']")).sendKeys(faker.internet().emailAddress());
+
 
 
