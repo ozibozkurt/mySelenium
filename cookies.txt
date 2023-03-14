@@ -10,3 +10,4 @@ public class Day08_Cookies extends TestBase {
            //find the total number of cookies
            Set<Cookie> allCookies = driver.manage().getCookies();
             int numberOfCookies = allCookies.size();
+            System.out.println(numberOfCookies);
