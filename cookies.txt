@@ -8,3 +8,4 @@ public class Day08_Cookies extends TestBase {
      public void handleCookies(){
           driver.get("https://www.amazon.com");
            //find the total number of cookies
+           Set<Cookie> allCookies = driver.manage().getCookies();
