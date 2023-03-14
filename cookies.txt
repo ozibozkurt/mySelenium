@@ -6,3 +6,4 @@ import java.util.Set;
 public class Day08_Cookies extends TestBase {
     @Test
      public void handleCookies(){
+          driver.get("https://www.amazon.com");
