@@ -5,3 +5,4 @@ import org.openqa.selenium.Cookie;
 import java.util.Set;
 public class Day08_Cookies extends TestBase {
     @Test
+     public void handleCookies(){
