@@ -12,3 +12,4 @@ public class Day08_Cookies extends TestBase {
             int numberOfCookies = allCookies.size();
             System.out.println(numberOfCookies);
              //print all the cookies
+             for (Cookie eachCookie:allCookies){
