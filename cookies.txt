@@ -14,4 +14,4 @@ public class Day08_Cookies extends TestBase {
              //print all the cookies
              for (Cookie eachCookie:allCookies){
                  System.out.println("Each Cookie:  " + eachCookie);
-                 
+                 System.out.println("Each Cookie Name:  " + eachCookie.getName());
