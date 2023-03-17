@@ -22,3 +22,4 @@ public class Day08_Cookies extends TestBase {
                    System.out.println("Cookie name i18n-prefs : " + driver.manage().getCookieNamed("i18n-prefs"));
                     //add new cookie
                     //1, create cookies object
+                    Cookie cookie = new Cookie("My-Fav-Cookie", "white-chocolate");
