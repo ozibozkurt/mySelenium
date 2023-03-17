@@ -20,4 +20,4 @@ public class Day08_Cookies extends TestBase {
                    //get the cookies by their name
                    //when we want to get single cookie, we can get by cookie name
                    System.out.println("Cookie name i18n-prefs : " + driver.manage().getCookieNamed("i18n-prefs"));
-
+                    //add new cookie
