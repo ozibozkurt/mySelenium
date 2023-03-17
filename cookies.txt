@@ -17,3 +17,4 @@ public class Day08_Cookies extends TestBase {
                  System.out.println("Each Cookie Name:  " + eachCookie.getName());
                   System.out.println("Each Cookie Value:  " + eachCookie.getValue());
                   }
+                   //get the cookies by their name
