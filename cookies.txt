@@ -27,3 +27,4 @@ public class Day08_Cookies extends TestBase {
                     driver.manage().addCookie(cookie);
                     //check if cookie is added
                     allCookies = driver.manage().getCookies();
+                     System.out.println(allCookies.size());//basta 8 vardi simdi 9 bekliyorum
