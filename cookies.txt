@@ -26,3 +26,4 @@ public class Day08_Cookies extends TestBase {
                     //2. add cookie
                     driver.manage().addCookie(cookie);
                     //check if cookie is added
+                    allCookies = driver.manage().getCookies();
