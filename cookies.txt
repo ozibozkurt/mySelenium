@@ -24,3 +24,4 @@ public class Day08_Cookies extends TestBase {
                     //1, create cookies object
                     Cookie cookie = new Cookie("My-Fav-Cookie", "white-chocolate");
                     //2. add cookie
+                    driver.manage().addCookie(cookie);
