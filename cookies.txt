@@ -30,12 +30,13 @@ public class Day08_Cookies extends TestBase {
                      System.out.println(allCookies.size());//basta 8 vardi simdi 9 bekliyorum
                     //delete the cookie
                      driver.manage().deleteCookieNamed("session-id");
+                     
                      //check if cookie is deleted
                       allCookies=driver.manage().getCookies();
                        System.out.println(allCookies.size());
                         //delete all cookies
                         driver.manage().deleteAllCookies();
-                        
+
                         //check if cookie is deleted
                           allCookies=driver.manage().getCookies();
                            System.out.println(allCookies.size());
