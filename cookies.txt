@@ -32,3 +32,4 @@ public class Day08_Cookies extends TestBase {
                      driver.manage().deleteCookieNamed("session-id");
                      //check if cookie is deleted
                       allCookies=driver.manage().getCookies();
+                       System.out.println(allCookies.size());
