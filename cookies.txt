@@ -35,3 +35,4 @@ public class Day08_Cookies extends TestBase {
                        System.out.println(allCookies.size());
                         //delete all cookies
                         driver.manage().deleteAllCookies();
+                        //check if cookie is deleted
