@@ -25,10 +25,11 @@ public class Day08_Cookies extends TestBase {
                     Cookie cookie = new Cookie("My-Fav-Cookie", "white-chocolate");
                     //2. add cookie
                     driver.manage().addCookie(cookie);
+                    
                     //check if cookie is added
                     allCookies = driver.manage().getCookies();
                      System.out.println(allCookies.size());//basta 8 vardi simdi 9 bekliyorum
-                     
+
                     //delete the cookie
                      driver.manage().deleteCookieNamed("session-id");
 
