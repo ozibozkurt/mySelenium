@@ -38,3 +38,4 @@ public class Day08_Cookies extends TestBase {
                         //check if cookie is deleted
                           allCookies=driver.manage().getCookies();
                            System.out.println(allCookies.size());
+                           }
