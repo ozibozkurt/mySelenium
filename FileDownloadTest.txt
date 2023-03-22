@@ -9,3 +9,4 @@ public class Day08_FileDownloadTest extends TestBase {
 
      @Test
       public void downloadTest() throws InterruptedException {
+           driver.get("https://the-internet.herokuapp.com/download");
