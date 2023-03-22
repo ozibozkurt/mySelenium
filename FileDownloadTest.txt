@@ -6,3 +6,5 @@ import org.openqa.selenium.By;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 public class Day08_FileDownloadTest extends TestBase {
+
+     @Test
