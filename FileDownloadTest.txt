@@ -12,3 +12,4 @@ public class Day08_FileDownloadTest extends TestBase {
            driver.get("https://the-internet.herokuapp.com/download");
            //clicking on the link to download
            driver.findElement(By.linkText("sample.png")).click();
+           Thread.sleep(5000);// dowload sometimes can take time
