@@ -10,14 +10,18 @@ public class Day08_FileDownloadTest extends TestBase {
      @Test
       public void downloadTest() throws InterruptedException {
            driver.get("https://the-internet.herokuapp.com/download");
+
            //clicking on the link to download
+
            driver.findElement(By.linkText("sample.png")).click();
            Thread.sleep(5000);// dowload sometimes can take time
+
            //C:\Users\Lenovo\Downloads\logo.png    ------> path of the download file
+           
            String filePath = System.getProperty("user.home") + "\\Downloads\\sample.png";
 
            //verification
-           
+
            boolean isDownloaded = Files.exists(Paths.get(filePath));
             Assert.assertTrue(isDownloaded);
             }
