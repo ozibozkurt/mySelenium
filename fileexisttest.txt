@@ -16,5 +16,6 @@ public class Day08_FileExistTest   {
            //Path of the image
             String pathOfImage = homeDirectory + "\\Desktop\\Foto.jpg";//full path
             System.out.println(pathOfImage);
-            
+            //Verify if a path exist
+
 
