@@ -19,6 +19,7 @@ public class Day08_FileExistTest   {
             //Verify if a path exist
             boolean isExistTest = Files.exists(Paths.get(pathOfImage));
              Assert.assertTrue(isExistTest);
+             }
 
 
 
