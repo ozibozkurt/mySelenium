@@ -14,4 +14,5 @@ public class Day08_FileExistTest   {
           String homeDirectory = System.getProperty("user.home");
            System.out.println(homeDirectory);
            //Path of the image
+            String pathOfImage = homeDirectory + "\\Desktop\\Foto.jpg";//full path
 
