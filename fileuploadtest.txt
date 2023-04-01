@@ -13,6 +13,7 @@ public class Day08_FileUploadTest extends TestBase {
              driver.findElement(By.id("file-upload")).sendKeys(filePath);
               driver.findElement(By.id("file-submit")).click();
                Thread.sleep(3000);
+               
                 //"File Uploaded!" textinin gorundugunu test edin
 
                 WebElement text = driver.findElement(By.tagName("h3"));
