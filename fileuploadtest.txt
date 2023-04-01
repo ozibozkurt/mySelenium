@@ -8,3 +8,4 @@ import org.openqa.selenium.WebElement;
 public class Day08_FileUploadTest extends TestBase {
       @Test
        public void fileUploadTest() throws InterruptedException {
+            driver.get("https://the-internet.herokuapp.com/upload");
