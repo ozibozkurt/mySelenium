@@ -12,3 +12,4 @@ public class Day08_FileUploadTest extends TestBase {
              String filePath= System.getProperty("user.home") + "\\Desktop\\Foto.jpg";
              driver.findElement(By.id("file-upload")).sendKeys(filePath);
               driver.findElement(By.id("file-submit")).click();
+               Thread.sleep(3000);
