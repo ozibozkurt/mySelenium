@@ -1,1 +1,1 @@
-JavascriptExecutor
+package com.myfirstproject;
