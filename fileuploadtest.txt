@@ -16,3 +16,5 @@ public class Day08_FileUploadTest extends TestBase {
                 //"File Uploaded!" textinin gorundugunu test edin
 
                 WebElement text = driver.findElement(By.tagName("h3"));
+                  Assert.assertTrue(text.isDisplayed());
+
