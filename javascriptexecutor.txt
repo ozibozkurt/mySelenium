@@ -9,3 +9,4 @@ import org.openqa.selenium.WebElement;
 public class Day08_JavascriptExecutor extends TestBase {
 /*
 What is javascript executor
+It is an interface. A selenium api that is used to handle some actions.
