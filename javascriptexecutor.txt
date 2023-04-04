@@ -13,3 +13,4 @@ It is an interface. A selenium api that is used to handle some actions.
 Click and scrolling actions can be handled with is easier.
 It is more powerful than selenium clicks.
 It can communicate with web pages better.
+I use it for the elements that can't be clicked with Selenium methods.
