@@ -23,3 +23,4 @@ I careate an object to use it from JavaScriptExecutor class
   ==> Javascripts excutor has some methods that makes automation effective
    How did you use it in your framework?
    ==> I used js executor to click the elements. It works well handling the clicks
+   ==> I also use it for scrolling. Js executor let us scroll onto the specific web element
