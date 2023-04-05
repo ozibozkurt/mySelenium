@@ -20,3 +20,4 @@ I careate an object to use it from JavaScriptExecutor class
 
  What is JS executer?
  ==> it is a selenium api that is used for handling some element.
+  ==> Javascripts excutor has some methods that makes automation effective
