@@ -30,3 +30,4 @@ I careate an object to use it from JavaScriptExecutor class
      public void scrollIntoView() throws InterruptedException {
           //creating javascript executer object
            // and casting driver
+            JavascriptExecutor je = (JavascriptExecutor)driver;//
