@@ -29,3 +29,4 @@ I careate an object to use it from JavaScriptExecutor class
      @Test
      public void scrollIntoView() throws InterruptedException {
           //creating javascript executer object
+           // and casting driver
