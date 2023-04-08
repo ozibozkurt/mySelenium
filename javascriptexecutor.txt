@@ -37,3 +37,4 @@ I careate an object to use it from JavaScriptExecutor class
             je.executeScript("arguments[0].scrollIntoView(true);", ourRooms);
     }
      @Test
+      public void test1() throws InterruptedException {
