@@ -36,3 +36,4 @@ I careate an object to use it from JavaScriptExecutor class
             WebElement ourRooms = driver.findElement(By.xpath("//*[.='Our Rooms']"));
             je.executeScript("arguments[0].scrollIntoView(true);", ourRooms);
     }
+     @Test
