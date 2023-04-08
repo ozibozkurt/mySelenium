@@ -31,3 +31,4 @@ I careate an object to use it from JavaScriptExecutor class
           //creating javascript executer object
            // and casting driver
             JavascriptExecutor je = (JavascriptExecutor)driver;//
+            driver.get("https://www.carettahotel.com");
