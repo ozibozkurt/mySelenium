@@ -34,3 +34,5 @@ I careate an object to use it from JavaScriptExecutor class
             driver.get("https://www.carettahotel.com");
             Thread.sleep(3000);
             WebElement ourRooms = driver.findElement(By.xpath("//*[.='Our Rooms']"));
+            je.executeScript("arguments[0].scrollIntoView(true);", ourRooms);
+    }
