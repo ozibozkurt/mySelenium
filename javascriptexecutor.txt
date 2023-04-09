@@ -41,3 +41,4 @@ I careate an object to use it from JavaScriptExecutor class
           JavascriptExecutor je = (JavascriptExecutor)driver;
            driver.get("https://www.carettahotel.com");
             Thread.sleep(3000);
+            WebElement kingRoom = driver.findElement(By.xpath("(//a[text()='Royal Kind Room'])[1]"));
