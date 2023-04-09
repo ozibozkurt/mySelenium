@@ -39,3 +39,4 @@ I careate an object to use it from JavaScriptExecutor class
      @Test
       public void test1() throws InterruptedException {
           JavascriptExecutor je = (JavascriptExecutor)driver;
+           driver.get("https://www.carettahotel.com");
