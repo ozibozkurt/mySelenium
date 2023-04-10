@@ -45,3 +45,4 @@ I careate an object to use it from JavaScriptExecutor class
             je.executeScript("arguments[0].scrollIntoView(true);", kingRoom);
             }
              @Test
+             public void clickWithJS(){
