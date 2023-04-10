@@ -49,3 +49,4 @@ I careate an object to use it from JavaScriptExecutor class
                  driver.get("http://a.testaddressbook.com/sign_in");
                  //click on sign button using js executer
                   ////input[@type='submit']
+                  WebElement signInButton = driver.findElement(By.xpath("//input[@type='submit']"));
