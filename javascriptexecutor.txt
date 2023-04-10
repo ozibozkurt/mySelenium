@@ -44,3 +44,4 @@ I careate an object to use it from JavaScriptExecutor class
             WebElement kingRoom = driver.findElement(By.xpath("(//a[text()='Royal Kind Room'])[1]"));
             je.executeScript("arguments[0].scrollIntoView(true);", kingRoom);
             }
+             @Test
