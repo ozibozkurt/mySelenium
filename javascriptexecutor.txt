@@ -46,3 +46,4 @@ I careate an object to use it from JavaScriptExecutor class
             }
              @Test
              public void clickWithJS(){
+                 driver.get("http://a.testaddressbook.com/sign_in");
