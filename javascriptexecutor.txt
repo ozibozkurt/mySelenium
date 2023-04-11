@@ -55,4 +55,5 @@ I careate an object to use it from JavaScriptExecutor class
                   //some elements can be challenging to click
                    //in that case, we use java scrip executer click as an alternative
                     //this perform is better on some application
+                     //we can use js click anytime
 
