@@ -54,3 +54,5 @@ I careate an object to use it from JavaScriptExecutor class
                   //normally click method works with selenium, we use this when t is good
                   //some elements can be challenging to click
                    //in that case, we use java scrip executer click as an alternative
+                    //this perform is better on some application
+
