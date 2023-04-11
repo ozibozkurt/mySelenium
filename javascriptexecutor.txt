@@ -51,3 +51,4 @@ I careate an object to use it from JavaScriptExecutor class
                   ////input[@type='submit']
                   WebElement signInButton = driver.findElement(By.xpath("//input[@type='submit']"));
                   //signInButton.click();==>this is selenium
+                  //normally click method works with selenium, we use this when t is good
