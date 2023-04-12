@@ -57,4 +57,6 @@ I careate an object to use it from JavaScriptExecutor class
                     //this perform is better on some application
                      //we can use js click anytime
                      //1. create javascripexecuter object
+                     JavascriptExecutor je = (JavascriptExecutor) driver;
+
 
