@@ -59,5 +59,6 @@ I careate an object to use it from JavaScriptExecutor class
                      //1. create javascripexecuter object
                      JavascriptExecutor je = (JavascriptExecutor) driver;
                      //2. use the apropriate method
+                      je.executeScript("arguments[0].click();",signInButton);  //==>this is java scrip
 
 
