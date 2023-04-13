@@ -68,6 +68,7 @@ I careate an object to use it from JavaScriptExecutor class
           driver.get("https://www.carettahotel.com");
           Thread.sleep(3000);
           //scroll down to the page using js executor
+          JavascriptExecutor je = (JavascriptExecutor) driver;
 
 
 
