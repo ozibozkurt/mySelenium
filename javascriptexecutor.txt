@@ -64,6 +64,7 @@ I careate an object to use it from JavaScriptExecutor class
                        Assert.assertTrue(driver.getPageSource().contains("Bad email or password."));
     }
      @Test
+     public void scrollDownWithJS() throws InterruptedException {
 
 
 
