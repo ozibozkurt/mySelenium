@@ -66,6 +66,7 @@ I careate an object to use it from JavaScriptExecutor class
      @Test
      public void scrollDownWithJS() throws InterruptedException {
           driver.get("https://www.carettahotel.com");
+          Thread.sleep(3000);
 
 
 
