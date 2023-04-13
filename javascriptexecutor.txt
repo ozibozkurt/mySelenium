@@ -63,6 +63,7 @@ I careate an object to use it from JavaScriptExecutor class
                        //Assert that the click happenig using the message
                        Assert.assertTrue(driver.getPageSource().contains("Bad email or password."));
     }
+     @Test
 
 
 
