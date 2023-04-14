@@ -64,6 +64,7 @@ I careate an object to use it from JavaScriptExecutor class
                        Assert.assertTrue(driver.getPageSource().contains("Bad email or password."));
     }
      @Test
+     
      public void scrollDownWithJS() throws InterruptedException {
           driver.get("https://www.carettahotel.com");
           Thread.sleep(3000);
@@ -72,7 +73,7 @@ I careate an object to use it from JavaScriptExecutor class
           je.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 
           }
-          
+
           }
 
 
