@@ -69,6 +69,7 @@ I careate an object to use it from JavaScriptExecutor class
           Thread.sleep(3000);
           //scroll down to the page using js executor
           JavascriptExecutor je = (JavascriptExecutor) driver;
+          je.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 
 
 
