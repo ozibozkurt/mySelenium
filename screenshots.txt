@@ -16,3 +16,4 @@ public class Day09_Screenshots extends TestBase {
       // we can automate taking screenshot with selenium
        //getScreenShotAs method takes the screenshot
        /*
+        How do you take screenshot ? How you automated taking screenshot in your current project ?
