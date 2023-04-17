@@ -13,3 +13,4 @@ import java.util.Date;
 public class Day09_Screenshots extends TestBase {
      //it is important to take screenshots
       // we must take screenshots as a proof of test result
+      // we can automate taking screenshot with selenium
