@@ -19,3 +19,4 @@ public class Day09_Screenshots extends TestBase {
         How do you take screenshot ? How you automated taking screenshot in your current project ?
         -There is an interface called TakesScreenshot
          I use getScreenshotAs methods.
+          I have a utilies package and reusable methods class and I have a takeScreenshot method. I use that method.
