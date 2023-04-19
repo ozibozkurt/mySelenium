@@ -22,3 +22,4 @@ public class Day09_Screenshots extends TestBase {
           I have a utilies package and reusable methods class and I have a takeScreenshot method. I use that method.
           When do you take screenshots ?
           If my test scenario fails . To open a bug ticket we need some proves.
+          If you find the bug with automation then there should be a method to provide a proof.
