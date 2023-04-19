@@ -29,6 +29,7 @@ public class Day09_Screenshots extends TestBase {
          TakesScreenshot ts = (TakesScreenshot) driver;
           //2. calling getScreenshotAs method for taking the screenshot
            File image = ts.getScreenshotAs(OutputType.FILE);
+           //3. save is in your project
 
 
 
