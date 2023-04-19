@@ -25,6 +25,7 @@ public class Day09_Screenshots extends TestBase {
           If you find the bug with automation then there should be a method to provide a proof.
              */
     public void takeScreenShot() throws IOException {
+        //1. TakesScreenshot is used for taking screenshot
 
 
 
