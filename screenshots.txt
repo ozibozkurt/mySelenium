@@ -26,6 +26,8 @@ public class Day09_Screenshots extends TestBase {
              */
     public void takeScreenShot() throws IOException {
         //1. TakesScreenshot is used for taking screenshot
+         TakesScreenshot ts = (TakesScreenshot) driver;
+
 
 
 
