@@ -34,6 +34,8 @@ public class Day09_Screenshots extends TestBase {
            String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
            System.out.println(currentTime);
             //path of the saved image
+            String path =  System.getProperty("user.dir")+"/text-output/Screenshots/"+currentTime+".png";
+
 
 
 
