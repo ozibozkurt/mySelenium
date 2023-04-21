@@ -31,6 +31,7 @@ public class Day09_Screenshots extends TestBase {
            File image = ts.getScreenshotAs(OutputType.FILE);
            //3. save is in your project
            //getting the current time for unique name
+           String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
 
 
