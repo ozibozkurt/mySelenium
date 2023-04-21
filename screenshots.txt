@@ -41,6 +41,7 @@ public class Day09_Screenshots extends TestBase {
     @Test
     public void getScreenShotTest() throws IOException, InterruptedException {
         driver.get("https://www.google.com");
+        driver.findElement(By.xpath("//*[text()= 'I agree']")).click();
 
 
 
