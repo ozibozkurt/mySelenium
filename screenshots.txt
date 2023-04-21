@@ -36,6 +36,8 @@ public class Day09_Screenshots extends TestBase {
             //path of the saved image
             String path =  System.getProperty("user.dir")+"/text-output/Screenshots/"+currentTime+".png";
          File finalPath = new File(path);
+         FileUtils.copyFile(image, finalPath);
+
 
 
 
