@@ -39,6 +39,7 @@ public class Day09_Screenshots extends TestBase {
          FileUtils.copyFile(image, finalPath);
          }
     @Test
+    public void getScreenShotTest() throws IOException, InterruptedException {
 
 
 
