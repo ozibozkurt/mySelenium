@@ -15,3 +15,4 @@ public class Day09_ScreenshotSel4 extends TestBase {
      */
       @Test
       public void takeScreenShot() throws IOException {
+          driver.get("https://www.google.com");
