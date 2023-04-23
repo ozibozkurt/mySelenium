@@ -13,3 +13,4 @@ public class Day09_ScreenshotSel4 extends TestBase {
     /*
     In selenium 4 we can take screenshot of specific web element
      */
+      @Test
