@@ -17,3 +17,4 @@ public class Day09_ScreenshotSel4 extends TestBase {
       public void takeScreenShot() throws IOException {
           driver.get("https://www.google.com");
            WebElement googleLogo = driver.findElement(By.xpath("//img[@class='lnXdpd']"));
+            File googleLogoImage = googleLogo.getScreenshotAs(OutputType.FILE);
