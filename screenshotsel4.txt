@@ -23,3 +23,4 @@ public class Day09_ScreenshotSel4 extends TestBase {
              // test-output/Screenshots.png;
              String path =  System.getProperty("user.dir")+ "/test-output/ScreenshotsForSel4/"+currentTime+".png";
              File finalPath = new File(path);
+              FileUtils.copyFile(googleLogoImage,finalPath);
