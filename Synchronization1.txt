@@ -15,3 +15,4 @@ public class Day10_Synchronization1 {
     WebDriver driver;
      @Before
      public void setUp(){
+          WebDriverManager.chromedriver().setup();
