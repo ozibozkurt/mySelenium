@@ -13,3 +13,4 @@ import java.time.Duration;
 public class Day10_Synchronization1 {
     //        DO NOT USE TEST BASE, SINCE IMPLICIT WAIT IS ALREADY THERE
     WebDriver driver;
+     @Before
