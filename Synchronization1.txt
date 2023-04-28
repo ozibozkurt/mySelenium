@@ -18,3 +18,5 @@ public class Day10_Synchronization1 {
           WebDriverManager.chromedriver().setup();
            driver= new ChromeDriver();
             driver.manage().window().maximize();
+            }
+    @Test
