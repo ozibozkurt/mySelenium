@@ -29,3 +29,4 @@ public class Day10_Synchronization1 {
         /*
          * After we click on the button, the It's gone! message take a few seconds.
          * Note that IF I DON'T USE WAIT, then element will not be found
+          * NoSuchElementException
