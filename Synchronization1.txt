@@ -31,3 +31,4 @@ public class Day10_Synchronization1 {
          * Note that IF I DON'T USE WAIT, then element will not be found
           * NoSuchElementException
            *We will use Explicit Wait for the message
+            * 1. Create the WebDriverWait object
