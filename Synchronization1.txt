@@ -33,3 +33,5 @@ public class Day10_Synchronization1 {
            *We will use Explicit Wait for the message
             * 1. Create the WebDriverWait object
               * 2. Use appropriate condition
+              *  */
+//        1. CREATE WEBDRIVERWAIT object
