@@ -18,6 +18,7 @@ public class Day10_Synchronization1 {
           WebDriverManager.chromedriver().setup();
            driver= new ChromeDriver();
             driver.manage().window().maximize();
+             //        Go to https://the-internet.herokuapp.com/dynamic_controls
             }
     @Test
     public void synchronization2(){
