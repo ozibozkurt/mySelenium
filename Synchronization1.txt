@@ -22,7 +22,7 @@ public class Day10_Synchronization1 {
               driver.get("https://the-internet.herokuapp.com/dynamic_controls");
             }
     @Test
-    public void synchronization2(){
+    public void synchronization1(){
         driver.get("https://the-internet.herokuapp.com/dynamic_controls");
          driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
           WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
