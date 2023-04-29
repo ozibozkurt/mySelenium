@@ -35,3 +35,4 @@ public class Day10_Synchronization1 {
               * 2. Use appropriate condition
               *  */
 //        1. CREATE WEBDRIVERWAIT object
+//        WebDriverWait wait = new WebDriverWait(driver,10);//SELENIUM3
