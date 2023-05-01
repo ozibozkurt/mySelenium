@@ -41,3 +41,4 @@ public class Day10_Synchronization1 {
  //        We have problem of visibility on the It's gone message
  //        So we will wait for that locator
  //        Explicit wait does the followings:
+ //        1. waits for the element up to 10 secs
