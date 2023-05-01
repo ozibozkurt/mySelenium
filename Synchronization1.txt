@@ -40,3 +40,4 @@ public class Day10_Synchronization1 {
  //        2. Use for a specific condition
  //        We have problem of visibility on the It's gone message
  //        So we will wait for that locator
+ //        Explicit wait does the followings:
