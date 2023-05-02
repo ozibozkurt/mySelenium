@@ -42,3 +42,4 @@ public class Day10_Synchronization1 {
  //        So we will wait for that locator
  //        Explicit wait does the followings:
  //        1. waits for the element up to 10 secs
+ //        2. If the element is visible in 10 secs, then it RETURNS that element
