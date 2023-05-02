@@ -45,3 +45,4 @@ public class Day10_Synchronization1 {
  //        2. If the element is visible in 10 secs, then it RETURNS that element
   WebElement goneMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
   String goneMessageText = goneMessage.getText();
+    Assert.assertEquals("It's gone!",goneMessageText);
