@@ -55,3 +55,4 @@ public class Day10_Synchronization1 {
     }
 }
 /*
+* What are the selenium waits?
