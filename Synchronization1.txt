@@ -56,3 +56,4 @@ public class Day10_Synchronization1 {
 }
 /*
 * What are the selenium waits?
+*>>>Selenium waits are implicit, explicit, fluent wait. They are dynamic waits. We use them for wait issue(synchronization)
