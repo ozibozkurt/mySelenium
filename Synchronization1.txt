@@ -50,3 +50,4 @@ public class Day10_Synchronization1 {
     driver.findElement(By.xpath("(//button[@type='button'])[1]")).click();
     //        And verify the message is equal to "It's back!"
      WebElement backMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
+     String backMessageText =  backMessage.getText();
