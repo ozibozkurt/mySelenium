@@ -51,3 +51,7 @@ public class Day10_Synchronization1 {
     //        And verify the message is equal to "It's back!"
      WebElement backMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
      String backMessageText =  backMessage.getText();
+      Assert.assertEquals("It's back!",backMessageText);
+    }
+}
+/*
