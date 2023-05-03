@@ -48,3 +48,4 @@ public class Day10_Synchronization1 {
     Assert.assertEquals("It's gone!",goneMessageText);
     //        Then click on Add button
     driver.findElement(By.xpath("(//button[@type='button'])[1]")).click();
+    //        And verify the message is equal to "It's back!"
