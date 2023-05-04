@@ -62,3 +62,4 @@ public class Day10_Synchronization1 {
  *>>>Yes, but not recommended, cause it might put additional extra wait. So if possible, do not use both.
  *
  * Which one do you prefer? Why?
+ *>>>>I have an implicit wait in my TestBase class. It is very useful , because it handles minor wait issues.
