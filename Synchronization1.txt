@@ -63,3 +63,4 @@ public class Day10_Synchronization1 {
  *
  * Which one do you prefer? Why?
  *>>>>I have an implicit wait in my TestBase class. It is very useful , because it handles minor wait issues.
+ * However, i personally like explicit wait, because it works really well in expected conditions, such as when element is not clickable,
