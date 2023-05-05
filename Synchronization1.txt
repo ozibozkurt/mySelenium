@@ -83,7 +83,8 @@ public class Day10_Synchronization1 {
    * -Do not be shy for asking your questions, but research you questions first to understand what to do better
  *
  * What is the difference between implicit and explicit wait?
- 
+ * -implicit wait is global wait. It applies the wait automatically, whenever driver is called
+
  
 
  
