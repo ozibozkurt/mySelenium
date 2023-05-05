@@ -88,7 +88,8 @@ public class Day10_Synchronization1 {
   *
  * -explicit wait is local wait. It can only be applied specific elements.
 
- 
+  * -explicit wait performs better especially under specific expected conditions.
+  
 
  
  
