@@ -76,6 +76,7 @@ public class Day10_Synchronization1 {
  *
  * What do you do when your test case fail?
  *>>>>-Read the error log/message on the console
+ * -Double check
  
 
  
