@@ -78,6 +78,7 @@ public class Day10_Synchronization1 {
  *>>>>-Read the error log/message on the console
  * -Double check
   * -manual test one more time(STEP BY STEP).
+   * -Try different solutions based on the error
  
 
  
