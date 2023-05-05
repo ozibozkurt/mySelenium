@@ -85,7 +85,8 @@ public class Day10_Synchronization1 {
  * What is the difference between implicit and explicit wait?
  * -implicit wait is global wait. It applies the wait automatically, whenever driver is called
   * -implicit wait has only one syntax: driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-  
+  *
+ * -explicit wait is local wait. It can only be applied specific elements.
 
  
 
