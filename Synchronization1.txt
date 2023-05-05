@@ -89,7 +89,10 @@ public class Day10_Synchronization1 {
  * -explicit wait is local wait. It can only be applied specific elements.
 
   * -explicit wait performs better especially under specific expected conditions.
-  
+  * When element is not visible, or when there is a pop up, then explicit wait works better
+ * -WebDriverWait object must be created for explicit wait
+ * -explicit wait has more than condition
+
 
  
  
