@@ -82,6 +82,8 @@ public class Day10_Synchronization1 {
    * -If you cannot figure out the solution for automation, check with your teammates(especially leads).
    * -Do not be shy for asking your questions, but research you questions first to understand what to do better
  *
+ * What is the difference between implicit and explicit wait?
+ 
  
 
  
