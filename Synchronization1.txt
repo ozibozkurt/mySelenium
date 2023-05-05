@@ -71,6 +71,8 @@ public class Day10_Synchronization1 {
   *>>>>-Wrong locator : instead of //p[@id='message'] you wrote //p[@class='message']
    * -element locator may be dynamic(dynamic id)
    * -wait issue -page is slow - database issue -page can be heavy(multiple iframes, videos, popups,..)
+   *-computer slow -internet issue -element can be inside the iframe -alert that you have to handle.
+ *
  
 
  
