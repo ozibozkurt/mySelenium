@@ -92,6 +92,7 @@ public class Day10_Synchronization1 {
   * When element is not visible, or when there is a pop up, then explicit wait works better
  * -WebDriverWait object must be created for explicit wait
  * -explicit wait has more than condition
+ * wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
 
 
  
