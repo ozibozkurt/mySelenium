@@ -68,4 +68,9 @@ public class Day10_Synchronization1 {
   * helps me to understand when to specifically use explicit wait.
  *
  *When your test case might fails?
+  *>>>>-Wrong locator : instead of //p[@id='message'] you wrote //p[@class='message']
  
+
+ 
+ 
+
