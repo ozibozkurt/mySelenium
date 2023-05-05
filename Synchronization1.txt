@@ -67,3 +67,5 @@ public class Day10_Synchronization1 {
   or load takes time, or element is not visible, or when there is a pop up, then explicit wait works better. Manual testing
   * helps me to understand when to specifically use explicit wait.
  *
+ *When your test case might fails?
+ 
