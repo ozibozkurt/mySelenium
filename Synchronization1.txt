@@ -95,7 +95,7 @@ public class Day10_Synchronization1 {
  * wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
  * wait.until(ExpectedConditions.elementToBeSelected())
  * wait.until(ExpectedConditions.elementToBeSelected())
- *
+ 
  * */
 
 
