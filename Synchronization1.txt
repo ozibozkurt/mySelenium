@@ -79,6 +79,7 @@ public class Day10_Synchronization1 {
  * -Double check
   * -manual test one more time(STEP BY STEP).
    * -Try different solutions based on the error
+   * -If you cannot figure out the solution for automation, check with your teammates(especially leads).
  
 
  
