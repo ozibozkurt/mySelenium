@@ -70,6 +70,7 @@ public class Day10_Synchronization1 {
  *When your test case might fails?
   *>>>>-Wrong locator : instead of //p[@id='message'] you wrote //p[@class='message']
    * -element locator may be dynamic(dynamic id)
+   * -wait issue -page is slow - database issue -page can be heavy(multiple iframes, videos, popups,..)
  
 
  
