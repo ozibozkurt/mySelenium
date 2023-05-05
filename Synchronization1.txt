@@ -93,6 +93,10 @@ public class Day10_Synchronization1 {
  * -WebDriverWait object must be created for explicit wait
  * -explicit wait has more than condition
  * wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
+ * wait.until(ExpectedConditions.elementToBeSelected())
+ * wait.until(ExpectedConditions.elementToBeSelected())
+ *
+ * */
 
 
  
