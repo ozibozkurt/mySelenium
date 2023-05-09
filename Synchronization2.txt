@@ -13,3 +13,4 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 public class Day10_Synchronization2 {
     /*
+     Create a class:Synchronization2. Create a method: isEnabled
