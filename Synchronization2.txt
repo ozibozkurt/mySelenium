@@ -16,3 +16,4 @@ public class Day10_Synchronization2 {
      Create a class:Synchronization2. Create a method: isEnabled
      Click enable Button
      And verify the message is equal to "It's enabled!"
+     And verify the textbox is enabled (I can type in the box)
