@@ -18,3 +18,4 @@ public class Day10_Synchronization2 {
      And verify the message is equal to "It's enabled!"
      And verify the textbox is enabled (I can type in the box)
      And click on Disable button
+     And verify the message is equal to "It's disabled!"
