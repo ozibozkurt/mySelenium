@@ -23,7 +23,7 @@ public class Day10_Synchronization2 {
 
     NOTE: .isEnabled(); is used to check if an element is enabled or not
      */
-
+WebDriver driver;
 
 
 
