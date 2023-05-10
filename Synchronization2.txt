@@ -20,3 +20,14 @@ public class Day10_Synchronization2 {
      And click on Disable button
      And verify the message is equal to "It's disabled!"
      And verify the textbox is disabled (I cannot type in the box)
+
+    NOTE: .isEnabled(); is used to check if an element is enabled or not
+     */
+
+
+
+
+
+
+
+
