@@ -31,6 +31,7 @@ WebDriver driver;
          driver.manage().window().maximize();
     }
     @Test
+     public void synchronization2(){
 
 
 
