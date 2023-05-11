@@ -25,6 +25,7 @@ public class Day10_Synchronization2 {
      */
 WebDriver driver;
  @Before
+  public void setUp(){
 
 
 
