@@ -30,6 +30,7 @@ WebDriver driver;
         driver= new ChromeDriver();
          driver.manage().window().maximize();
     }
+    @Test
 
 
 
