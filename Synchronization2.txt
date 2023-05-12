@@ -33,6 +33,7 @@ WebDriver driver;
     @Test
      public void synchronization2(){
           driver.get("https://the-internet.herokuapp.com/dynamic_controls");
+    driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
 
 
 
