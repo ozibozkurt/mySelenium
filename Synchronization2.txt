@@ -36,6 +36,7 @@ WebDriver driver;
     driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
      WebElement enableMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
+      String enableMessageText = enableMessage.getText();
 
 
 
