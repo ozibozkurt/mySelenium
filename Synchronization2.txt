@@ -39,6 +39,7 @@ WebDriver driver;
       String enableMessageText = enableMessage.getText();
        Assert.assertEquals("It's enabled!",enableMessageText);
         driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
+         WebElement backMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
 
 
 
