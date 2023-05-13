@@ -41,7 +41,8 @@ WebDriver driver;
         driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
          WebElement backMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='message']")));
          String backMessageText =  backMessage.getText();
-         
+         Assert.assertEquals("It's back!",backMessageText);
+
 
 
 
