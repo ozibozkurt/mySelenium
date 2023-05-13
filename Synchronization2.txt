@@ -43,6 +43,7 @@ WebDriver driver;
          String backMessageText =  backMessage.getText();
          Assert.assertEquals("It's back!",backMessageText);
          }
+         }
 
 
 
