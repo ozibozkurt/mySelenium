@@ -8,3 +8,4 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 public class Day11_ExtentReports extends TestBase {
     //    3 libraries to remember?????
+    //    Extent reports are used for customized html reports
