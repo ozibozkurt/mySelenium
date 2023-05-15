@@ -6,3 +6,4 @@ import com.myfirstproject.utilities.TestBase;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+public class Day11_ExtentReports extends TestBase {
