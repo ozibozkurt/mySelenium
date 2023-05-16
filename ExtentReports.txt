@@ -12,3 +12,4 @@ public class Day11_ExtentReports extends TestBase {
     //    it is used to add steps on teh test cased when needed.
     //    we have the extent reports set ups in test base
     @Test
+     public void extentReportsTest() throws InterruptedException {
