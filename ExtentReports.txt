@@ -10,3 +10,4 @@ public class Day11_ExtentReports extends TestBase {
     //    3 libraries to remember?????
     //    Extent reports are used for customized html reports
     //    it is used to add steps on teh test cased when needed.
+    //    we have the extent reports set ups in test base
