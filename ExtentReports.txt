@@ -14,3 +14,4 @@ public class Day11_ExtentReports extends TestBase {
     @Test
      public void extentReportsTest() throws InterruptedException {
           extentTest.pass("Going to the google home page");
+          driver.get("https://www.google.com");
