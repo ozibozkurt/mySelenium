@@ -13,3 +13,4 @@ public class Day11_ExtentReports extends TestBase {
     //    we have the extent reports set ups in test base
     @Test
      public void extentReportsTest() throws InterruptedException {
+          extentTest.pass("Going to the google home page");
