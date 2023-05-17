@@ -22,3 +22,7 @@ public class Day11_ExtentReports extends TestBase {
 //        Logging as failed
  extentTest.fail("THIS WILL FAIL");
 //        logging as sipped
+ extentTest.skip("THI IS SKIPPED");
+
+    }
+}
