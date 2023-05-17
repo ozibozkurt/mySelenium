@@ -20,3 +20,5 @@ public class Day11_ExtentReports extends TestBase {
            driver.findElement(By.name("q")).sendKeys("iphone x"+ Keys.ENTER);
             extentTest.pass("Printing the result");
 //        Logging as failed
+ extentTest.fail("THIS WILL FAIL");
+//        logging as sipped
