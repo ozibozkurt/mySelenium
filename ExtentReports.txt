@@ -17,3 +17,4 @@ public class Day11_ExtentReports extends TestBase {
           driver.get("https://www.google.com");
           Thread.sleep(3000);//ben de cerez cikiyor o yuzden bekleme koydum cerezleri kabul etmek icin
            extentTest.pass("Searching for iphone");
+           driver.findElement(By.name("q")).sendKeys("iphone x"+ Keys.ENTER);
