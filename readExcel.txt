@@ -11,6 +11,7 @@ public class Day11_ReadExcel {
       public void readExcel() throws IOException {
         String path = "./src/test/java/resources/Capitals.xlsx";
         //        Open the file
+        FileInputStream fileInputStream = new FileInputStream(path);
 
 
 
