@@ -19,6 +19,7 @@ public class Day11_ReadExcel {
          //        Go to first row
           Row row1 = sheet1.getRow(0);
           //        Go to first cell on that first row and print
+          Cell cell1 = row1.getCell(0); //getcell okumak icin yazmak icin farkli method var
 
 
 
