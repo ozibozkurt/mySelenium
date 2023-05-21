@@ -18,6 +18,7 @@ public class Day11_ReadExcel {
          Sheet sheet1 = workbook.getSheetAt(0);
          //        Go to first row
           Row row1 = sheet1.getRow(0);
+          //        Go to first cell on that first row and print
 
 
 
