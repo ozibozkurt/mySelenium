@@ -17,6 +17,7 @@ public class Day11_ReadExcel {
          //        Open the first worksheet
          Sheet sheet1 = workbook.getSheetAt(0);
          //        Go to first row
+          Row row1 = sheet1.getRow(0);
 
 
 
