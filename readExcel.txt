@@ -15,6 +15,21 @@ public class Day11_ReadExcel {
         //        Open the workbook using fileinputstream
          Workbook workbook = WorkbookFactory.create(fileInputStream);
          //        Open the first worksheet
+         Sheet sheet1 = workbook.getSheetAt(0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
