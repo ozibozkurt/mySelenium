@@ -26,8 +26,8 @@ public class Day11_ReadExcel {
              System.out.println(cell2.toString());
              //        Go to 2nd row first cell  and assert if the data equal to USA
               String actualrow2Cell1 = sheet1.getRow(1).getCell(0).toString(); // bu kisa yolu normalde cell idi biz strinhge cevirdik onaylamak icin
-              
 
+             Assert.assertEquals("USA", actualrow2Cell1);
 
 
 
