@@ -24,7 +24,7 @@ public class Day11_ReadExcel {
            //        Go to second cell on that first row and print
             Cell cell2 = row1.getCell(1);
              System.out.println(cell2.toString());
-             
+             //        Go to 2nd row first cell  and assert if the data equal to USA
 
 
 
