@@ -33,6 +33,8 @@ public class Day11_ReadExcel {
               System.out.println(row3Cell2);
               //        Find the number of row
               //index starts from 0 s0 add 1 to match the row number
+               int lastRowNumber = sheet1.getLastRowNum()+1;//index o dan basliyor ama excelde birden basladigindan bir ekledik
+        System.out.println(lastRowNumber);
 
 
 
