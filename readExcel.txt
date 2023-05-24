@@ -39,7 +39,7 @@ public class Day11_ReadExcel {
         //index start from 1 so no need to add 1 to match  sadece kullanilan satirlari yazdiracagiz, bos hucreler devre disi kalacak
         int numberOfRowUsed = sheet1.getPhysicalNumberOfRows();
 
-
+      System.out.println(numberOfRowUsed);
 
 
 
