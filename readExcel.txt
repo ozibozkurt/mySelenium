@@ -41,7 +41,8 @@ public class Day11_ReadExcel {
 
       System.out.println(numberOfRowUsed);
       //        Print country, capitol key value pairs as map object
-      
+      Map<String,String> countryCapitals = new HashMap<>();
+
 
 
 
