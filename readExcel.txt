@@ -36,6 +36,7 @@ public class Day11_ReadExcel {
                int lastRowNumber = sheet1.getLastRowNum()+1;//index o dan basliyor ama excelde birden basladigindan bir ekledik
         System.out.println(lastRowNumber);
         //        Find the number of used row
+        //index start from 1 so no need to add 1 to match  sadece kullanilan satirlari yazdiracagiz, bos hucreler devre disi kalacak
         
 
 
