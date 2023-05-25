@@ -53,6 +53,7 @@ public class Day11_ReadExcel {
          //            london  = sheet1.getRow(3).getCell(1);
          //            ankara  = sheet1.getRow(4).getCell(1);
           String countries = sheet1.getRow(rowNumber).getCell(0).toString();
+          String capitals  = sheet1.getRow(rowNumber).getCell(1).toString();
 
 
 
