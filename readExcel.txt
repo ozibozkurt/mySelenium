@@ -43,6 +43,7 @@ public class Day11_ReadExcel {
       //        Print country, capitol key value pairs as map object
       Map<String,String> countryCapitals = new HashMap<>();
       //using loop to get each cell data and store in the map
+       for (int rowNumber =1;rowNumber<lastRowNumber;rowNumber++) {
 
 
 
