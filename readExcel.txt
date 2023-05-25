@@ -44,6 +44,7 @@ public class Day11_ReadExcel {
       Map<String,String> countryCapitals = new HashMap<>();
       //using loop to get each cell data and store in the map
        for (int rowNumber =1;rowNumber<lastRowNumber;rowNumber++) {
+         //            usa     = sheet1.getRow(1).getCell(0);
 
 
 
