@@ -45,6 +45,7 @@ public class Day11_ReadExcel {
       //using loop to get each cell data and store in the map
        for (int rowNumber =1;rowNumber<lastRowNumber;rowNumber++) {
          //            usa     = sheet1.getRow(1).getCell(0);
+         //            france  = sheet1.getRow(2).getCell(0);
 
 
 
