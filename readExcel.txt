@@ -58,6 +58,8 @@ public class Day11_ReadExcel {
           //System.out.println("Capitals  : "+capitals);
            //map put function is used dto add key value pains inside the map
            countryCapitals.put(countries,capitals);
+            }
+        System.out.println(countryCapitals);
 
 
 
