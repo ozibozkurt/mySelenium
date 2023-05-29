@@ -55,6 +55,7 @@ public class Day11_ReadExcel {
           String countries = sheet1.getRow(rowNumber).getCell(0).toString();
           String capitals  = sheet1.getRow(rowNumber).getCell(1).toString();
           //System.out.println("Countries : "+countries);
+          //System.out.println("Capitals  : "+capitals);
 
 
 
