@@ -11,3 +11,4 @@ public class Day11_WriteExcel {
           //        Store the path of the file as string and open the file
           String path = "./src/test/java/resources/Capitals.xlsx";
           //        Open the workbook
+           FileInputStream fileInputStream = new FileInputStream(path);
