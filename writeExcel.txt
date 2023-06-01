@@ -10,3 +10,4 @@ public class Day11_WriteExcel {
       public void writeExcel() throws IOException {
           //        Store the path of the file as string and open the file
           String path = "./src/test/java/resources/Capitals.xlsx";
+          //        Open the workbook
