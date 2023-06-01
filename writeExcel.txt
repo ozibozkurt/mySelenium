@@ -12,3 +12,4 @@ public class Day11_WriteExcel {
           String path = "./src/test/java/resources/Capitals.xlsx";
           //        Open the workbook
            FileInputStream fileInputStream = new FileInputStream(path);
+           Workbook workbook = WorkbookFactory.create(fileInputStream);
