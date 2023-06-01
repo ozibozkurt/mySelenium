@@ -19,3 +19,4 @@ public class Day11_WriteExcel {
                    Row row1 = sheet1.getRow(0);
                    //        Create a cell on the 3rd column (2nd index) on the first row
                    Cell row1Cell3 = row1.createCell(2);
+                   //        Write "POPULATION" on that cell
