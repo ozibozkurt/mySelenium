@@ -22,3 +22,4 @@ public class Day11_WriteExcel {
                    //        Write "POPULATION" on that cell
                    row1Cell3.setCellValue("POPULATION");
                    //        Create a cell on the 2nd row 3rd cell(index2), and write 150000
+                   sheet1.getRow(1).createCell(2).setCellValue(150000);
