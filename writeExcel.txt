@@ -30,3 +30,4 @@ public class Day11_WriteExcel {
                    Cell row1Cell4 = row1.createCell(3);
                    row1Cell4.setCellValue("mountain");
                    sheet1.getRow(0).createCell(4).setCellValue("baslik bu olacak");
+                   sheet1.getRow(1).createCell(4).setCellValue("Agri");
