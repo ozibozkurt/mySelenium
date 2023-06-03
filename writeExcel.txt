@@ -21,3 +21,4 @@ public class Day11_WriteExcel {
                    Cell row1Cell3 = row1.createCell(2);
                    //        Write "POPULATION" on that cell
                    row1Cell3.setCellValue("POPULATION");
+                   //        Create a cell on the 2nd row 3rd cell(index2), and write 150000
