@@ -26,3 +26,4 @@ public class Day11_WriteExcel {
                    //        Create a cell on the 3rd row 3rd cell(index2), and write 250000
                    sheet1.getRow(2).createCell(2).setCellValue(250000);
                    //        Create a cell on the 4th row 3rd cell(index2), and write 54000
+                   sheet1.getRow(3).createCell(2).setCellValue(54000);
