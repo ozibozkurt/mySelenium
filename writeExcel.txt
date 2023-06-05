@@ -34,4 +34,5 @@ public class Day11_WriteExcel {
                    sheet1.getRow(2).createCell(4).setCellValue("toros");
                    sheet1.getRow(3).createCell(4).setCellValue("erciyes");
                    sheet1.getRow(4).createCell(4).setCellValue("ilgaz");
+                   sheet1.getRow(5).createCell(3).setCellValue("uludag");
 
