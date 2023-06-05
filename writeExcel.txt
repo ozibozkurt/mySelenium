@@ -38,4 +38,5 @@ public class Day11_WriteExcel {
                    System.out.println(row1Cell4.toString());
                    //        Write and save the workbook
                    FileOutputStream fileOutputStream = new FileOutputStream(path);
+                   workbook.write(fileOutputStream);
 
