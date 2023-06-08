@@ -18,16 +18,22 @@ public class Day11_WriteExcel {
 
            //        Open the first worksheet
                   Sheet sheet1 = workbook.getSheetAt(0);
+
         //        Go to the first row
                    Row row1 = sheet1.getRow(0);
+
                    //        Create a cell on the 3rd column (2nd index) on the first row
                    Cell row1Cell3 = row1.createCell(2);
+
                    //        Write "POPULATION" on that cell
                    row1Cell3.setCellValue("POPULATION");
+                   
                    //        Create a cell on the 2nd row 3rd cell(index2), and write 150000
                    sheet1.getRow(1).createCell(2).setCellValue(150000);
+                   
                    //        Create a cell on the 3rd row 3rd cell(index2), and write 250000
                    sheet1.getRow(2).createCell(2).setCellValue(250000);
+                   
                    //        Create a cell on the 4th row 3rd cell(index2), and write 54000
                    sheet1.getRow(3).createCell(2).setCellValue(54000);
                    Cell row1Cell4 = row1.createCell(3);
@@ -39,12 +45,15 @@ public class Day11_WriteExcel {
                    sheet1.getRow(4).createCell(4).setCellValue("ilgaz");
                    sheet1.getRow(5).createCell(3).setCellValue("uludag");
                    System.out.println(row1Cell4.toString());
+                   
                    //        Write and save the workbook
                    FileOutputStream fileOutputStream = new FileOutputStream(path);
                    workbook.write(fileOutputStream);
+                   
                    //        Close the file
                    fileInputStream.close();
                     fileOutputStream.close();
+                   
                     //        Close the workbook
                      workbook.close();
                       }
