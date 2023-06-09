@@ -38,12 +38,19 @@ public class Day11_WriteExcel {
                    sheet1.getRow(3).createCell(2).setCellValue(54000);
                    Cell row1Cell4 = row1.createCell(3);
                    row1Cell4.setCellValue("mountain");
+
                    sheet1.getRow(0).createCell(4).setCellValue("baslik bu olacak");
+
                    sheet1.getRow(1).createCell(4).setCellValue("Agri");
+
                    sheet1.getRow(2).createCell(4).setCellValue("toros");
+
                    sheet1.getRow(3).createCell(4).setCellValue("erciyes");
+
                    sheet1.getRow(4).createCell(4).setCellValue("ilgaz");
+
                    sheet1.getRow(5).createCell(3).setCellValue("uludag");
+                   
                    System.out.println(row1Cell4.toString());
                    
                    //        Write and save the workbook
