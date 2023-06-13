@@ -68,7 +68,7 @@ WebElement femaleRadioButton = driver.findElement(By.xpath("(//input[@type='radi
     }
     //    @After
 //    public void tearDown(){
-//        driver.quit();
+//        driver.quit(); //butun acik olan sayfalari kapatir
 //    }
 
 }
