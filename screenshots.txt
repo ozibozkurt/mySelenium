@@ -43,7 +43,7 @@ public class Day09_Screenshots extends TestBase {
         driver.get("https://www.google.com");
         driver.findElement(By.xpath("//*[text()= 'I agree']")).click();
         Thread.sleep(3000);
-        takeScreenShot();
+        takeScreenShot(); // bu guzel bir ozellik, bug olup olmadigini team a gostermek icin
     }
 
 
