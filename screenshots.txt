@@ -38,6 +38,7 @@ public class Day09_Screenshots extends TestBase {
          File finalPath = new File(path);
          FileUtils.copyFile(image, finalPath);
          }
+         
     @Test
     public void getScreenShotTest() throws IOException, InterruptedException {
         driver.get("https://www.google.com");
