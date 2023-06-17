@@ -29,17 +29,15 @@ public class Day09_Screenshots extends TestBase {
          TakesScreenshot ts = (TakesScreenshot) driver;
           //2. calling getScreenshotAs method for taking the screenshot
            File image = ts.getScreenshotAs(OutputType.FILE);
+           
            //3. save is in your project
+           
            //getting the current time for unique name
-           String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-           System.out.println(currentTime);
-            //path of the saved image
-            String path =  System.getProperty("user.dir")+"/text-output/Screenshots/"+currentTime+".png";
-         File finalPath = new File(path);
+           
          FileUtils.copyFile(image, finalPath);
          }
          
-         
+
     @Test
     public void getScreenShotTest() throws IOException, InterruptedException {
         driver.get("https://www.google.com");
