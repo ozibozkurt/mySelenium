@@ -35,14 +35,19 @@ public class Day09_Screenshots extends TestBase {
            //getting the current time for unique name
            
          FileUtils.copyFile(image, finalPath);
+
          }
          
 
     @Test
     public void getScreenShotTest() throws IOException, InterruptedException {
+
         driver.get("https://www.google.com");
+
         driver.findElement(By.xpath("//*[text()= 'I agree']")).click();
+
         Thread.sleep(3000);
+        
         takeScreenShot(); // bu guzel bir ozellik, bug olup olmadigini team a gostermek icin
     }
 
