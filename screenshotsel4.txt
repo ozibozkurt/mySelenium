@@ -26,3 +26,4 @@ public class Day09_ScreenshotSel4 extends TestBase {
               FileUtils.copyFile(googleLogoImage,finalPath);
               }
               }
+              //selenium 4 da guncelleme geldi 
