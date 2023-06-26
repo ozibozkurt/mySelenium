@@ -15,7 +15,7 @@ public class Day09_ScreenshotSel4 extends TestBase {
      */
       @Test
       public void takeScreenShot() throws IOException {
-          driver.get("https://www.google.com");
+          driver.get("https://www.google.com");//gidilecek yer icin ileride set up yapilacak
            WebElement googleLogo = driver.findElement(By.xpath("//img[@class='lnXdpd']"));
             File googleLogoImage = googleLogo.getScreenshotAs(OutputType.FILE);
             String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -23,6 +23,7 @@ public class Day09_ScreenshotSel4 extends TestBase {
             // Where you store the images
              
              // test-output/Screenshots.png;
+
              String path =  System.getProperty("user.dir")+ "/test-output/ScreenshotsForSel4/"+currentTime+".png";
              File finalPath1 = new File(path);
               FileUtils.copyFile(googleLogoImage,finalPath);
