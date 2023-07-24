@@ -17,6 +17,12 @@ JUNIT is a testing framework
 
     2. @Before : Runs before each @Test annotation
 
+//  @Before
+ //   public void setUp() {
+     System.out.println("This is before method olacak. Herseyden once o calisacak");
+ }
+
+
     3. @After  : Runs after each @Test annotation
 
     4. @BeforeClass : Runs only once before each class
