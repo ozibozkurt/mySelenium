@@ -47,7 +47,7 @@ public void tearDown() {
     It will come from Assert class   
 
 
-    1. Assert.assertEquals("ACTUAL","EXPECTED");
+    1. Assert.assertEquals("ACTUAL","EXPECTED");//genellikle bu kullanilir JUnit icin
     2. Assert.assertTrue("ACTUAL".contains("EXPECTED"));
      3. Assert.assertFalse("ACTUAL".contains("EXPECTED"));
 
