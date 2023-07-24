@@ -81,3 +81,8 @@ public void tearDown() {
     }
 
 
+@Test
+public void assertions() {
+    //1. Assert.assertEquals("expected", "actual");
+    Assert.assertEquals("java", "java" );
+}

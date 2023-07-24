@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day03_Locators {
+
     @Test
     public void locators() throws InterruptedException {
 
@@ -83,7 +84,42 @@ List<WebElement> allLinks = driver.findElements(By.tagName("a"));//return all li
 
 
 
+/*
 
+@Test
+public void locators() {
+
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");// WINDOWS
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+
+         driver.get("http://a.testaddressbook.com/sign_in");
+
+        driver.findElement(By.id("session_email")).sendKeys("deneme@gmail.com");
+        driver.findElement(By.id("session_password")).sendKeys("12345");
+        driver.findElement(By.name("commit")).click();
+        Thread.sleep(3000);
+
+
+
+       WebElement userId = driver.findElement(By.className("navbar-text"));
+       String userIdText = userId.getText();
+
+       String expectedUserId = "deneme@gmail.com"
+       Assert.assertEquals("id test is failed", expectedUserId, actualUserIdText);
+
+       
+
+
+}
+
+
+
+
+
+
+
+*/
 
 
 
