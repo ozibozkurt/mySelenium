@@ -38,6 +38,8 @@ public void tearDown() {
 
     6. @Ignore      : To skip a test case 
 
+    //bu annotation testi gormezden gl demek
+
 
     ********JUNIT ASSERTION
     We use JUnit assertion if actual and expected is equal
