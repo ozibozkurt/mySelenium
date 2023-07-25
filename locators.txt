@@ -117,13 +117,13 @@ public void locators() {
         //total number of link at the page using selenium
         //a tag is used the create links
         List<WebElement>allLinks =  driver.findElements(By.tagName("a"));
-        sout("Total number of link : "+allLinks.size());
+        sout("Total number of link : "+allLinks.size());  //sout-->System.out.println();
 
 
         driver.findElement(By.partialLinkText("Sign o")).click();
        // What is difference betwenn linktext and partial link text
-                //link text accepts the full complete text with space and all
-                //partialLinkText accepts the full complete text or less then all text 
+        //link text accepts the full complete text with space and all
+        //partialLinkText accepts the full complete text or less then all text 
 
 
 
