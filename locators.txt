@@ -19,6 +19,7 @@ public class Day03_Locators {
 
          driver.get("http://a.testaddressbook.com/sign_in");
 
+
          locating the email input
         driver.findElement(By.id("session_email")).sendKeys("testtechproed@gmail.com");
 
@@ -29,7 +30,7 @@ public class Day03_Locators {
         driver.findElement(By.name("commit")).click();
         Thread.sleep(5000);
 
-        Then verify that the expected user id testtechproed@gmail.com (USE getText() method to get the text from the page)
+       // Then verify that the expected user id testtechproed@gmail.com (USE getText() method to get the text from the page)
 //        1. locate the element
 //        2. getText will return the text as String
 //        3. assert
