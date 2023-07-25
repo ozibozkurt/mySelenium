@@ -120,6 +120,19 @@ public void locators() {
         sout("Total number of link : "+allLinks.size());
 
 
+        driver.findElement(By.partialLinkText("Sign o")).click();
+       // What is difference betwenn linktext and partial link text
+                //link text accepts the full complete text with space and all
+                //partialLinkText accepts the full complete text or less then all text 
+
+
+
+
+
+
+
+
+
 }
 
 
