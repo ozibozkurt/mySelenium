@@ -125,6 +125,12 @@ public void locators() {
         //link text accepts the full complete text with space and all
         //partialLinkText accepts the full complete text or less then all text 
 
+        //how do you know sign out?
+        //make sure do the assertion for verifiying sign out
+       boolean isSignedOut = driver.getCurrentUrl().equals("http://a.testaddressbook.com/sign_in");
+        Assert.assertTrue(isSignedOut);
+        Thread.sleep(3000);
+        driver.close();
 
 
 
