@@ -108,7 +108,16 @@ public void locators() {
        String expectedUserId = "deneme@gmail.com"
        Assert.assertEquals("id test is failed", expectedUserId, actualUserIdText);
 
-       
+     WebElement addressesElement =  driver.findElement(By.linkText("Addresses"));
+        Assert.assertTrue(addressesElement.isDisplayed);
+
+        WebElement signOutElement = driver.findElement(By.linkText("Sign Out"));
+        Assert.assertTrue(signOutElement.isDisplayed);
+
+        //total number of page using selenium
+        //a tag is used the create links
+        List<WebElement>allLinks =  driver.findElements(By.tagName("a"));
+        sout("Total number of link : "+allLinks.size());
 
 
 }
