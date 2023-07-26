@@ -74,6 +74,8 @@ System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC
         driver.findElement(By.cssSelector("input[id='UserName']")).sendKeys("manager");
         driver.findElement(By.cssSelector("input[id='Password']")).sendKeys("Manager1!");
 
+        driver.findElement(By.cssSelector("input[id='btnSubmit']")).click();
+
 
 
     }
