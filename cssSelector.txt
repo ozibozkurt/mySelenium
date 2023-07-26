@@ -81,6 +81,14 @@ System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC
     }
 
 
+
+    @After
+    public void tearDown() {
+
+        driver.quit();
+    }
+
+
 }
 
 
