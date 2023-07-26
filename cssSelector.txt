@@ -69,6 +69,15 @@ System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC
 
     }
 
+    @Test
+    public void cssTest() {
+        driver.findElement(By.cssSelector("input[id='UserName']")).sendKeys("manager");
+        driver.findElement(By.cssSelector("input[id='Password']")).sendKeys("Manager1!");
+
+
+
+    }
+
 
 }
 
