@@ -43,3 +43,11 @@ public class Day03_xpath_css  {
 
 
 }
+
+
+//There are 2 types of xpath//Absolute --> go from parent to child using, not recommended, it can be broken easly
+//Relative--> go straight to any element on the page usng. 
+//       -->       //input[@id='mail']          //tagName[@attribute='value']
+
+//which locator do you prefer?
+//I prefer id.because id is unique. if tehre is no id then I use other locator such as name. If I have to non of the regular works then I write xpath. I can write xpath for any element, xpath is powerful.
