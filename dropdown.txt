@@ -169,7 +169,7 @@ public void sizeTest() {
     List<WebElement>allOptions = select.getOptions();
     //finding number of options
     int numberOfOption = allOptions.size();
-    Assert.assertEquals("Expected Is Not eQUAL actual", numberOfOption.getText());
+    Assert.assertEquals("Expected Is Not EQUAL actual", numberOfOption, actual:4);
 
 
 }
