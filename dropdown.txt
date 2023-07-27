@@ -119,8 +119,23 @@ public class Day05_Dropdown {
 ==> Select select = new Select(dropdown);
 ==> select.selectByIndex(1); --<index sifirdan baslar
 ==>select.selectByVisibleText(option 1);
-==> select.selectByValue(1); 
+==> select.selectByValue("1"); 
 ==> uc farkli yol kullanabiliriz  dropdowni locate etmek icin  
+
+@Test
+public void selectByValueTest() {
+     WebElement dropdown = driver.findElement(By.id("dropdown"));
+     Select select = new Select(dropdown);
+     select.selectByValue("1");
+
+ }
+ @Test
+ public void selectByVisibleText() {
+     WebElement dropdown = driver.findElement(By.id("dropdown"));
+     Select select = new Select(dropdown);
+     select.selectByVisibleText("Option 2");
+
+ }
 
 
 /*
