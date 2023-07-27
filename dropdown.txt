@@ -151,6 +151,20 @@ WebElement dropdown = driver.findElement(By.id("dropdown"));
 
 
 
+     @Test
+     public void printFirstSelectedOptionTest() {
+
+ebElement dropdown = driver.findElement(By.id("dropdown"));
+     Select select = new Select(dropdown);
+     WebElement selectedOption = select.getFirstSelectedOption();-->returns only selected options
+    sout(selectedOption.getText());
+
+    Assert.assertEquals("Please select an option", selectedOption.getText());
+     }
+
+
+
+
 }
 
 
