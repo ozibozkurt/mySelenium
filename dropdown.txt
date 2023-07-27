@@ -162,7 +162,17 @@ ebElement dropdown = driver.findElement(By.id("dropdown"));
     Assert.assertEquals("Please select an option", selectedOption.getText());
      }
 
+@Test
+public void sizeTest() {
+    WebElement dropdown = driver.findElement(By.id("dropdown"));
+     Select select = new Select(dropdown);
+    List<WebElement>allOptions = select.getOptions();
+    //finding number of options
+    int numberOfOption = allOptions.size();
+    Assert.assertEquals("Expected Is Not eQUAL actual", numberOfOption.getText());
 
+
+}
 
 
 }
