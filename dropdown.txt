@@ -115,8 +115,12 @@ public class Day05_Dropdown {
 */
 
 ==>first before method for good codes
-after locate the elemenet
-
+==> after locate the elemenet --> WebElement dropdown = driver.findElement(By.id("dropdown"));
+==> Select select = new Select(dropdown);
+==> select.selectByIndex(1); --<index sifirdan baslar
+==>select.selectByVisibleText(option 1);
+==> select.selectByValue(1); 
+==> uc farkli yol kullanabiliriz  dropdowni locate etmek icin  
 
 
 /*
