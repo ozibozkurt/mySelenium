@@ -138,6 +138,31 @@ public void selectByValueTest() {
  }
 
 
+//create method print all dropdown value
+@Test
+public void printAllTest() {
+WebElement dropdown = driver.findElement(By.id("dropdown"));
+     Select select = new Select(dropdown);
+     List<WebElement>allOptions = select.getOptions();
+     for(WebElement eachOption:allOptions) {
+         sout(eachElement.getText());
+     }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
