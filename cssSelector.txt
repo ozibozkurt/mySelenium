@@ -86,9 +86,49 @@ System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC
 }
 
 
+checkbox
 
 
+webdriver driver;
 
+@Before
+public void setUp() {
+System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe"); // MAC // For windows add .exe
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        //driver.manage.timeouts.implicitlyWait(Duration.ofSeconds(5));====>eger sayfa bes saniyede yuklenirse implicitly wait beklemeyecek yuklenmezse bekleyecek
+
+
+    }
+    @Test
+    public void checkBox() {
+        driver.get("https://the-internet.herokuapp.com/checkboxes");
+        WebElement checkbox1 = driver.findElement(By.xpath("(//input[@type='checkbox'])[1]"));
+        Assert.assertTrue(!checkbox1.isSelected); ====>verify that checkbox1 is not checked
+
+        verify checkbox 2 is selected
+        WebElement checkbox2 = driver.findElement(By.xpath("(//input[@type='checkbox'])[2]"));
+        Assert.assertTrue(checkbox2.isSelected);
+
+//how to check only uncheckbox 
+if(!checkbox1.isSelected) {
+checkbox1.click();
+}
+if(!checkbox2.isSelected) {
+checkbox2.click();
+}
+//asserting if both checkboxes are checked
+Assert.assertTrue(checkbox1.isSelected);
+Assert.assertTrue(checkbox2.isSelected);
+
+
+    }
+
+@After
+public void tearDown() {
+    driver.quit();
+}
 
 
 
