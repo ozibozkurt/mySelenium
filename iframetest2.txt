@@ -53,10 +53,11 @@ WebDriver driver;
     @Test
     public void iframeSize() {
 
+        int numberOfFrame =  driver.findElements(By.tagName("iframe")).size();
+        sout(numberOfFrame);
 
 
 
-         
     }
 
 
