@@ -48,6 +48,17 @@ WebDriver driver;
           driver.get("https://www.amazon.com");
     }
 
+    //how many iframe there are amazon.com
+
+    @Test
+    public void iframeSize() {
+
+
+
+
+         
+    }
+
 
 
 
