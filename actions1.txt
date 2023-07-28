@@ -44,3 +44,15 @@ public class Day07_Actions1 {
                   //driver.close();
                   }
                   }
+
+
+
+*/
+
+Actions actions = new Actions;
+WebElement rectangle =  driver.findElement(By.id("hot-spot"));
+actions.contextClick(rectangle).perform(); ===> perform u unutmamak gerekir
+
+
+
+/*
