@@ -52,6 +52,7 @@ public class Day07_Actions1 {
 Actions actions = new Actions;
 WebElement rectangle =  driver.findElement(By.id("hot-spot"));
 actions.contextClick(rectangle).perform(); ===> perform u unutmamak gerekir
+===> Actions clasinda yapilacaklar uc adimda bu sekilde ozet olarak, sadece komutu degistirerek baska seyler de yapilabilir.
 
 
 
