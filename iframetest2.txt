@@ -32,3 +32,23 @@ public class Day06_IFrameTest2 {
          driver.quit();
     }
 }
+
+
+
+
+*/ 
+
+WebDriver driver;
+     @Before
+     public void setUp(){
+          System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");  
+          driver = new ChromeDriver();
+          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+          driver.manage().window().maximize();
+          driver.get("https://www.amazon.com");
+    }
+
+
+
+
+/*
