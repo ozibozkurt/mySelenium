@@ -91,7 +91,7 @@ third we will use executeScript
 je.executeScript(Script, Arguments);
 je.executeScript("arguments[0].scrollIntoView(true);", locateAdi); // locate edilen elemente kadar gider
 
-js.executeScript("arguments[0].click();", locateAdi);==> locate edilen yeri tiklar
+je.executeScript("arguments[0].click();", locateAdi);==> locate edilen yeri tiklar
 
 
 
@@ -107,8 +107,11 @@ public void clickTest() {
   JavaScriptExecutor je = (JavaScriptExecutor) driver;
   je.executeScript("arguments[0].click();", signInButton);
 
+//normaly, click(method works with selenium). 
+//some elements can be challenging to click
+//in that case we have javascripexecuter click as an alternative
+//this perform is better alternative
 
-  
 
 }
 
