@@ -96,5 +96,22 @@ js.executeScript("arguments[0].click();", locateAdi);==> locate edilen yeri tikl
 
 
 
+
+ornegin
+@Test
+public void clickTest() {
+  //create jse object
+  
+  driver.get("https://www.something.com");
+  WebElement signInButton = driver.findElement(By.id("id"));
+  JavaScriptExecutor je = (JavaScriptExecutor) driver;
+  je.executeScript("arguments[0].click();", signInButton);
+
+
+  
+
+}
+
+
 /*
 
