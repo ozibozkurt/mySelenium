@@ -31,7 +31,7 @@ public class Day09_Screenshots extends TestBase {
           //2. calling getScreenshotAs method for taking the screenshot
            File image = ts.getScreenshotAs(OutputType.FILE);
            
-           //3. save is in your project
+           //3. save is in your project. no need more because cucumber has screenshot
            
            //getting the current time for unique name
            
