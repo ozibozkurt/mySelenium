@@ -91,7 +91,7 @@ third we will use executeScript
 je.executeScript(Script, Arguments);
 je.executeScript("arguments[0].scrollIntoView(true);", locateAdi); // locate edilen elemente kadar gider
 
-je.executeScript("arguments[0].click();", locateAdi);==> locate edilen yeri tiklar
+js.executeScript("arguments[0].click();", locateAdi);==> locate edilen yeri tiklar
 
 
 
