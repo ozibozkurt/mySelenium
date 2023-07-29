@@ -1,0 +1,32 @@
+utilities clasinde TestBase clasi olusturulur
+ve before after annotationlar oraya alinarak kod repeat edilmekten kurtulur.
+
+
+public abstract class TestBase{
+
+
+    public WebDriver driver;
+
+    //diger sayfalarda gormek icin public yaptik, protected da yapabilirdik
+    //diger sayfalar icin extend keywordsunu kullanicagiz.
+
+
+     @Before
+     public void setUp(){
+         WebDriverManager.chromedriver().setup();
+          driver = new ChromeDriver();
+          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+          driver.manage().window().maximize();
+
+    }
+
+    @After
+    public void tearDown() {
+        driver.close();
+    
+    
+    
+    }
+
+
+    }

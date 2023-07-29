@@ -78,3 +78,23 @@ I careate an object to use it from JavaScriptExecutor class
 
 
 
+*/
+first thing je objesi olustur
+JavaScriptExecutor je = (JavaScriptExecutor) driver;
+
+
+second thing locate to go
+WebElement locateAdi = driver.findElement(By.id("id"));
+
+
+third we will use executeScript
+je.executeScript(Script, Arguments);
+je.executeScript("arguments[0].scrollIntoView(true);", locateAdi);
+
+
+
+
+
+
+/*
+
