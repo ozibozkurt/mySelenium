@@ -15,5 +15,12 @@ public class webtables extends TestBase {
       public void webtablesTest() throws IOException {
 
           //extends testbase dedigimiz icin before methoda gerek yok
-          driver.get("https://www.google.com");
+
+          driver.get("https://the-internet.herokuapp.com/tables");
+
+          
+
+
+        
+
            
