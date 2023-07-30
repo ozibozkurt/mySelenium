@@ -36,6 +36,18 @@ public class webtables extends TestBase {
                  rowNum++;
 
              }
+             @Test
+             public void getCellData() {
+                 <List>WebElement>allCellData = driver.findElements(By.xpath("(//table[@id='table1'])[1]//tbody//tr//td"));
+               for (WebElement eachSellData : allCellData) {
+                    sout(eachSellData.getText());
+               }
+
+
+
+             }
+
+
 
 
           }
