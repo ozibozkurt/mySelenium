@@ -30,9 +30,10 @@ public class webtables extends TestBase {
             driver.get("https://the-internet.herokuapp.com/tables");
 
              List<WebElement>tableRows = driver.findElements(By.xpath("//table[@id='table1']//tbody//tr"));
+             int rowNum =1;
              for (WebElement eachRow : tableRows) {
                  sout("Row number "+rowNum+ " => "+eachRow.getText());
-                 
+                 rowNum++;
 
              }
 
