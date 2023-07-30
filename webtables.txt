@@ -20,4 +20,21 @@ public class webtables extends TestBase {
 
           sout("Print table data");
           
-          Webelement entireTable = driver.findElement(By.xpath("//table[@id='table']"));
+          Webelement entireTable = driver.findElement(By.xpath("//table[@id='table1']"));
+
+          sout(entireTable.getText());
+
+          @Test
+          public void getRows() {
+
+            driver.get("https://the-internet.herokuapp.com/tables");
+
+             List<WebElement>tableRows = driver.findElements(By.xpath("//table[@id='table1']//tbody//tr"));
+             for (WebElement eachRow : tableRows) {
+                 sout("Row number "+rowNum+ " => "+eachRow.getText());
+                 
+
+             }
+
+
+          }
