@@ -1,0 +1,19 @@
+package com.myfirstproject;
+import com.myfirstproject.utilities.TestBase;
+import org.apache.commons.io.FileUtils;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.WebElement;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+public class webtables extends TestBase {
+    
+      @Test
+      public void webtablesTest() throws IOException {
+
+          //extends testbase dedigimiz icin before methoda gerek yok
+          driver.get("https://www.google.com");
+           
