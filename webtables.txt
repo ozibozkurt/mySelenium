@@ -18,9 +18,6 @@ public class webtables extends TestBase {
 
           driver.get("https://the-internet.herokuapp.com/tables");
 
+          sout("Print table data");
           
-
-
-        
-
-           
+          Webelement entireTable = driver.findElement(By.xpath("//table[@id='table']"));
